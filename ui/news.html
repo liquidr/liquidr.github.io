@@ -1,0 +1,14 @@
+<h3>News</h3>
+<dl>
+<dt>Sept 18, 2012</dt><dd>"Realtime" streaming is now supported.  If you add "&stream" to a data fetch URL,
+any fetch via that URL will "hang" when the server has transmitted all known samples.  As new samples arrive from
+the instrument, they will be written by the server to the client.
+Streaming URLs are great for avoiding polling: they get data as soon as possible, without the overhead
+of making frequent HTTP requests.
+<p>
+Normally, the client will never get an
+end-of-file when reading from a streaming URL.  But there are situations where the connection may
+be closed (server reboot, network configuration change, ....).  If you get an EOF while reading a streaming
+URL, just start reading again.  New samples will be recieved by the client a couple
+of minutes after the sensor takes its reading, on average.  Most of the delay is in the Iridium satellite network.</dd>
+</dl>

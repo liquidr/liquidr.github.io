@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'LRITitle-old';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Audiowide'), local('Audiowide-Regular'), url(http://themes.googleusercontent.com/static/fonts/audiowide/v1/8XtYtNKEyyZh481XVWfVOqCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'LRITitle';
+  font-style: normal;
+  font-weight: 400;
+  src: local('LRITitle Regular'), local('LRITitle-Regular'), url(http://themes.googleusercontent.com/static/fonts/quicksand/v2/sKd0EMYPAh5PYCRKSryvW7O3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'LRITitle';
+  font-style: normal;
+  font-weight: 700;
+  src: local('LRITitle Bold'), local('LRITitle-Bold'), url(http://themes.googleusercontent.com/static/fonts/quicksand/v2/32nyIRHyCu6iqEka_hbKsqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+h1 { font-family: 'LRITitle', sans-serif; font-size: 250%; }
+h2 { font-family: 'LRITitle', sans-serif; font-size: 150%; }
+h3 { font-family: 'LRITitle', sans-serif; font-size: 110%; }
+div.subtitle { padding-left: 2em; font: italic normal 50% serif; }
+
+@media screen {
+td.body { background: white; border: thin solid black; border-radius: 7px; }
+body { background: #bbb; font-family:  sans-serif;
+       }
+}
+
+@media print {
+td.body { background: white; border: none; border-radius: 0; }
+body { font-family: sans-serif; }
+.nav { display: none; }
+.footer { display: none; }
+.skipPrint { display: none; }
+#.newPage { page-break-before: always; }
+}
+
+div.bigChart { width: 6in; display: block; height: 4in; background: rgba(255,255,255,0.5);
+               border-radius: 17px; margin-top: 20px; padding: 5px; }
+a.button { display: inline-block; text-decoration: none;
+           padding: 2px; background: #ddd; color:#333; }
+a.button:hover { background:#eee }
+a.nav { display: block; width: 200px; text-decoration: none; font-family: sans-serif;
+        color:#333; padding: 4px 12px 4px 12px; margin: 3px; border-radius: 7px;  }
+td.bottomNav a.nav { display: inline-block; }
+a.nav:hover { background:#eee }
+table.login { padding: 30px ; }
+table.main { border-spacing: 0; }
+input.fullwidth { width:100%; }
+input[type=text] { border:none; backgroud: rgba(255,255,255,0.6); }
+td.nav { padding-right: 10px }
+td.title { height:100px; vertical-align: middle;
+	   background: url('http://slab.liquidr.com/LRILogo-textured-100.png') no-repeat right top; }
+td.divider { }
+.units { font-family: serif; font-size: 70%; font-style:italic; }
+@media (min-width:1024px) {
+	table.main { width: 80%; }
+}
+@media (max-width:1024px) {
+	body { font-size: 70%; }
+}
