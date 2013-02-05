@@ -1,0 +1,237 @@
+{
+wavegliders:[
+{
+    institution: "Liquid Robotics",
+    fleet: liquidr,
+    requires: liquidr,
+    vehicles: [
+        {
+            fleet: "Gulf";
+            requires: gulf;
+            vehicles: [
+                { imei: 300025010601860; shortname: "G1"; }
+                { imei: 300025010607880; shortname: "G2"; }
+                { imei: 300025010608850; shortname: "G5"; }
+            ]
+        },
+        {   fleet: "Sharks";
+            requires: sharks;
+            vehicles: [
+                { imei: 300025010107550; shortname: "Schatzi"; }
+            ]
+        }
+        {   fleet: pacx,
+            public: true,
+            requires: "=pacx|public";
+            varRename: {
+                c1: "Crude Oil",
+                c2: "Chlorophyll A",
+                c3: "Turbidity"
+            },
+            vehicles: [
+                { imei: [ 300025010706720, "4/20/2012", 300025010701750 ],
+                    longname:"Papa Mau",
+                    shortname: "PCX_1",
+                    destination: Australia
+                    oxy:{ id:0222,
+                        soc: 3.2129e-4,
+                        foffset: -835.22,
+                        a: -3.2858e-3,
+                        b: 1.4526e-4,
+                        c: -2.5172e-6,
+                        e: 0.036 }
+                },
+                { imei: 300025010703750,
+                    longname:"Benjamin",
+                    shortname: "PCX_2",
+                    destination: Australia
+                    oxy:{ id:0215,
+                        soc: 3.1166e-4,
+                        foffset: -808.15,
+                        a: -3.0025e-3,
+                        b: 1.7405e-4,
+                        c: -2.9396e-6,
+                        e: 0.036 }
+                },
+                { imei: 300025010702730,
+                    longname: "Piccard Maru",
+                    shortname: "PCX_3",
+                    destination: Japan
+                    oxy:{ id:0220,
+                        soc: 3.4046e-4,
+                        foffset: -872.54,
+                        a: -3.4497e-3,
+                        b: 1.3878e-4,
+                        c: -2.7547e-6,
+                        e: 0.036 }
+                },
+                { imei: [ 300025010607490, "3/28/2012", 300025010219630 ]
+                    longname:"Fontaine Maru",
+                    shortname: "PCX_4",
+                    destination: Japan
+                    oxy:{ id:0223,
+                        soc: 2.2894e-4,
+                        foffset: -827.7,
+                        a: -3.6182e-3,
+                        b: 2.3018e-4,
+                        c: -3.8091e-6,
+                        e: 0.036 }
+                },
+            ]
+        },
+        {
+            fleet: hawaii,
+            requires: hawaii,
+            vehicles: [
+                {   imei: 300234010588080,
+                    shortname: "R2"
+                },
+                {   imei: 300234010416160,
+                    shortname: "R1"
+                },
+                {   imei: 300025010600890,
+                    shortname: "Nalu"
+                },
+                {   imei: 300234011344020,
+                    shortname: "Prometheus"
+                },
+                {   imei: 999,
+                    shortname: "Cartman"
+                },
+                {   imei: 300234011574990,
+                    shortname: "Stan"
+                },
+                {   imei: 300234011578980,
+                    shortname: "Kenny"
+                },
+                {   imei: 999,
+                    shortname: "Kyle"
+                },
+                { imei: 300234011344060; shortname: "SpongeBob" },
+                { imei: 300025010508030; shortname: "Sheild" },
+                { imei: 300025010011470; shortname: "Kaimana" },
+            ]
+        },
+        {
+            fleet: engineering;
+            requires: engineering;
+            vehicles: [
+                {   imei: 300025010604840,
+                    shortname: "SW_1734",
+                    longname: "Mike's rig",
+                    sn: 233,
+                },
+                {   imei: 300034012288160,
+                    shortname: "SW_1733",
+                    longname: "Viet's rig",
+                    sn: 234,
+                }
+            ]
+        },
+        {
+            fleet: demo;
+            requires: demo;
+            vehicles: [
+                {   imei: [300034013403980 "4/3/2012"  300034013520280];
+                    longname:"Hermes",
+                    shortname: "Demo1",
+                    sn: 302,
+                },
+                {   imei: [300034013403980 "4/3/2012" 300034013403980;]
+                    shortname: "Demo2";
+                    longname: "Mercury";
+                    sn: 303,
+                }
+            ]
+        },
+        {
+            fleet: harmony;
+            requires: harmony;
+            vehicles: [
+                {   shortname: "H1"; imei: 300025010228220; sn: 1631009215 },
+                {   shortname: "H2"; imei: 300025010418250; sn: 605425387 },
+                {   shortname: "H3"; imei: 300025010717720; sn: 701741378 },
+            ]
+        }
+    ]
+},
+{
+    institution: "Monterey Bay Aquarium Research Institute",
+    fleet: mbari,
+    requires: mbari,
+    vehicles:[
+        { imei: 300034013529390,
+            longname: "MBARI OA Wave Glider",
+            shortname: "MBARI1",
+            destination: "Monterey Bay",
+        }
+    ]
+},
+{
+    institution: "Chevron",
+    fleet: cvx;
+    requires: cvx;
+    vehicles: [
+        { shortname: "cvx.so-2004-1"; imei: 300234011739650 },
+        { shortname: "cvx.wuruwuru"; imei: 300234011578990 },
+    ]
+},
+{
+    institution: "Woods Hole Oceanographic institute",
+    fleet: WHOI;
+    public: false;
+    requires: whoi;
+    vehicles: [
+        {   imei: 300034013906770,
+            rawid: "0A141131ED000000-00000000A5250000",
+            sn: 237,
+            shortname: "WHOI-ASL2",
+        }
+        {   imei: 300034013408970,
+            shortname: "WHOI-ASL3",
+            sn: 296,
+        }
+        {   imei: 300034013529310,
+            sn: 297,
+            shortname: "WHOI-ASL4",
+        }
+        {   imei: 300234010205270,
+            sn: 1433017005,
+            shortname: "WHOI-Hawaii",
+        }
+        {   imei: 300234010583110,
+            sn: 214801195,
+            shortname: "WHOI-APS",
+        }
+        {   imei: 300034013400790,
+            sn: 206,
+            shortname: "WHOI-PhilSea",
+        }
+        {   imei: 300234010587080,
+            sn: 1529332996,
+            shortname: "WHOI-SAIC",
+        }
+    ]
+},
+{
+    institution: "NOAA",
+    fleet: noaa;
+    requires: noaa;
+    vehicles: [
+        {   shortname: "NDBC_1"; imei: 300234010589090; sn: 889013132 },
+        {   shortname: "NDBC_2"; imei: 300034012287170; sn: 261 },
+    ]
+}
+],
+users:[
+    { shortname: jag; privileges: root; password: rubbish; }
+],
+cluster: {
+    nodes:[
+        { shortname: stream1; dns: "stream1.liquidr.com"; }
+        { shortname: stream2; dns: "stream2.liquidr.com"; from: legacy; }
+        { shortname: stream3; dns: "stream3.liquidr.com"; from: relay; }
+    ]
+    key: "khklashioysdnvioquryqp9y883lqkj5674hjfywud9fyfdj";
+}
+}
