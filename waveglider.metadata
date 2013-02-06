@@ -179,7 +179,6 @@ wavegliders:[
 {
     institution: "Woods Hole Oceanographic institute",
     fleet: WHOI;
-    public: false;
     requires: whoi;
     vehicles: [
         {   imei: 300034013906770,
