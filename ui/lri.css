@@ -50,6 +50,7 @@ table.main { border-spacing: 0; }
 input.fullwidth { width:100%; }
 input[type=text] { border: thin solid black; background: #eee; border-radius: 4px; }
 td.nav { padding-right: 10px }
+td.timevalue { white-space: nowrap; }
 td.title { height:100px; vertical-align: middle;
 	   background: url('http://slab.liquidr.com/LRILogo-textured-100.png') no-repeat right top; }
 td.divider { }
