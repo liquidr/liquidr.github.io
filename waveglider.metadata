@@ -141,6 +141,11 @@ wavegliders:[
                     shortname: "Demo2";
                     longname: "Mercury";
                     sn: 303,
+                },
+                {   imei: 300234011341050;
+                    shortname: "Demo3";
+                    longname: "Gysin";
+                    sn: 1896785571;
                 }
             ]
         },
