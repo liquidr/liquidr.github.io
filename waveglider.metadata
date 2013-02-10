@@ -125,6 +125,10 @@ wavegliders:[
                     shortname: "SW_1733",
                     longname: "Viet's rig",
                     sn: 234,
+                },
+                {   imei: 300234011343070,
+                    shortname: "Ripley",
+                    sn: 24,
                 }
             ]
         },
