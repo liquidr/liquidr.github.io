@@ -33,13 +33,14 @@ body { font-family: sans-serif; }
 .nav { display: none; }
 .footer { display: none; }
 .skipPrint { display: none; }
-#.newPage { page-break-before: always; }
+/*.newPage { page-break-before: always; } */
 }
 
 div.bigChart { width: 6in; display: block; height: 4in; background: white;
                border-radius: 17px; margin-top: 20px; padding: 5px; }
 a.button { display: inline-block; text-decoration: none;
-           padding: 2px; background: #ddd; color:#333; }
+           padding: 2px; background: #ddd; color:#333;
+           border: thin solid #00A; border-radius: 5px; }
 a.button:hover { background:#eee }
 a.nav { display: block; width: 200px; text-decoration: none; font-family: sans-serif;
         color:#333; padding: 4px 12px 4px 12px; margin: 3px; border-radius: 7px;  }
