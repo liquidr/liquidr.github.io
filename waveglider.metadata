@@ -219,6 +219,9 @@ wavegliders:[
             sn: 1529332996,
             shortname: "WHOI-SAIC",
         }
+        {   shortname: "WHOI-ASL22"; imei: 300234010583080 }
+        {   shortname: "WHOI-ASL32"; imei: 300234060501880 }
+        {   shortname: "WHOI-ASL42"; imei: 300234011184600 }
     ]
 },
 {
