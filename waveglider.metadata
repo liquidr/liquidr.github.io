@@ -232,13 +232,23 @@ wavegliders:[
         {   shortname: "NDBC_1"; imei: 300234010589090; sn: 889013132 },
         {   shortname: "NDBC_2"; imei: 300034012287170; sn: 261 },
     ]
-}
+},
 {
     institution: "Hydro Systems Development, Inc";
     fleet: hsd;
     requires: hsd;
     vehicles: [
         { shortname: Namihei; imei: 300234011737660; }
+    ]
+},
+{
+    institution: "Western Geco";
+    fleet: WesternGeco;
+    requires: WesternGeco;
+    vehicles: [
+        { shortname: "WesternGeco.CBS.1"; imei: 300234011343060 }
+        { shortname: "WesternGeco.CBS.2"; imei: 300234011347040 }
+        { shortname: "WesternGeco.CBS.3"; imei: 300234010582090 }
     ]
 }
 ],
