@@ -1,5 +1,5 @@
 #! /bin/bash
-cd ~/docroot/avatars
+#cd ~/docroot/avatars
 echo "<html><head><title>Avatars</title></head>">index.html
 echo "<body>">>index.html
 ls *.png|sed "s;.*;<a href=&>&<br><img src=& border=0><p>;">>index.html
