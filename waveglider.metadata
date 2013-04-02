@@ -169,10 +169,13 @@ wavegliders:[
     fleet: mbari,
     requires: mbari,
     vehicles:[
-        { imei: 300034013529390,
-            longname: "MBARI OA Wave Glider",
-            shortname: "MBARI1",
-            destination: "Monterey Bay",
+        {   imei: 300034013529390,
+            sn: 878292676,
+            shortname: "MBARI OA",
+        },
+        {   shortname:  "MBARI Tex",
+            sn: 1709513817,
+            imei: 300234011487870
         }
     ]
 },
