@@ -5,7 +5,7 @@ div.subtitle { padding-left: 2em; font: italic normal 50% serif; }
 
 @media screen {
 td.body { background: white;  border-radius: 7px; }
-body { background: #ddd; font-family:  sans-serif;
+body { background: #eee; font-family:  sans-serif;
        }
 }
 
