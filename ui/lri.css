@@ -27,7 +27,7 @@ a.button:hover { background:#ddd }
 a.nav { display: block; width: 200px; text-decoration: none; font-family: sans-serif;
         color:#333; padding: 4px 12px 4px 12px; margin: 3px; border-radius: 7px;  }
 td.bottomNav a.nav { display: inline-block; }
-a.nav:hover { background:#eee }
+a.nav:hover { background:#ddd }
 table.login { padding: 30px ; }
 table.main { border-spacing: 0; }
 input.fullwidth { width:100%; }
