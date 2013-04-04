@@ -23,7 +23,7 @@ div.bigChart { width: 6in; display: block; height: 4in; background: white;
 a.button { display: inline-block; text-decoration: none;
            padding: 2px; background: #ddd; color:#333;
            border: thin solid #00A; border-radius: 5px; }
-a.button:hover { background:#eee }
+a.button:hover { background:#ddd }
 a.nav { display: block; width: 200px; text-decoration: none; font-family: sans-serif;
         color:#333; padding: 4px 12px 4px 12px; margin: 3px; border-radius: 7px;  }
 td.bottomNav a.nav { display: inline-block; }
