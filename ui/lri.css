@@ -4,8 +4,8 @@ h3 { font-family: sans-serif; font-size: 110%; }
 div.subtitle { padding-left: 2em; font: italic normal 50% serif; }
 
 @media screen {
-td.body { background: white;  border-radius: 7px; }
-body { background: #eee; font-family:  sans-serif;
+td.body { background: white; border: thin solid black; border-radius: 7px; }
+body { background: #bbb; font-family:  sans-serif;
        }
 }
 
@@ -23,11 +23,11 @@ div.bigChart { width: 6in; display: block; height: 4in; background: white;
 a.button { display: inline-block; text-decoration: none;
            padding: 2px; background: #ddd; color:#333;
            border: thin solid #00A; border-radius: 5px; }
-a.button:hover { background:#ddd }
+a.button:hover { background:#eee }
 a.nav { display: block; width: 200px; text-decoration: none; font-family: sans-serif;
         color:#333; padding: 4px 12px 4px 12px; margin: 3px; border-radius: 7px;  }
 td.bottomNav a.nav { display: inline-block; }
-a.nav:hover { background:#ddd }
+a.nav:hover { background:#eee }
 table.login { padding: 30px ; }
 table.main { border-spacing: 0; }
 input.fullwidth { width:100%; }

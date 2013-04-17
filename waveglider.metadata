@@ -1,4 +1,4 @@
-{ // The new remote (liquidr.github.com) version of the metadata  - the master hack version
+{ // The new remote (liquidr.github.com) version of the metadata
 wavegliders:[
 {
     institution: "Liquid Robotics",
@@ -53,7 +53,7 @@ wavegliders:[
                         c: -2.9396e-6,
                         e: 0.036 }
                 },
-                { imei: 300025010702730,
+                { imei: [ 300025010702730, "3/1/2013", 399999999999999 ]
                     longname: "Piccard Maru",
                     shortname: "PCX_3",
                     destination: Japan
