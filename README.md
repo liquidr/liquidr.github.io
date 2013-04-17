@@ -1,4 +1,4 @@
-liquidr.github.com
+liquidr.github.io
 ==================
 
 These are primarily static files shared across a lot of properties.  Everything from our CSS & JavaScript files
