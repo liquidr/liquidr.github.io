@@ -172,6 +172,13 @@ wavegliders:[
         {   imei: 300034013529390;
             sn: 878292676;
             shortname: "MBARI OA"
+                    oxy:{ id:0244,
+                        soc: 2.56150e-4,
+                        foffset: -884.37,
+                        a: -2.8064e-3,
+                        b:  1.5664e-4,
+                        c: -2.4665e-6,
+                        e: 0.036 }
         },
         {   shortname: "MBARI Tex";
             sn: 1709513817;
