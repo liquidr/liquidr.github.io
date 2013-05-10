@@ -186,6 +186,17 @@ wavegliders:[
         }
     ]
 },
+{   institution: "Dalhousie University"
+    fleet: "otn"
+    requires: "otn"
+    vehicles:[
+        { imei: 300234011181530;
+            sn: 444954773;
+            shortname: "SO 174";
+            rudics: "300025010427100";
+        }
+    ]
+},
 {
     institution: "Chevron",
     fleet: cvx;
