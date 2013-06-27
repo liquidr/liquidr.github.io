@@ -110,6 +110,22 @@ wavegliders:[
                 { imei: 300234011344060; shortname: "SpongeBob" },
                 { imei: 300025010508030; shortname: "Sheild" },
                 { imei: 300025010011470; shortname: "Kaimana" },
+//BEGINAUTO
+	{ sn: "1260095230"; shortname: "Abalone"; longname: "Abalone"; imei: "300434060008890"; }
+	{ sn: "1329610081"; shortname: "ArashVirtualBox"; }
+	{ sn: "609054910"; shortname: "AT-Ore"; longname: "AT-Ore"; imei: "300434060008890"; }
+	{ sn: "648307211"; shortname: "Black Widow"; longname: "Black Widow"; imei: "300434060002740"; }
+	{ sn: "1515151130"; shortname: "Captain America"; longname: "Captain America"; imei: "300434060008760"; }
+	{ sn: "1966300422"; shortname: "Gandalf"; longname: "Gandalf"; imei: "300434060001740"; }
+	{ sn: "2121578921"; shortname: "Hulk"; longname: "Hulk"; imei: "300434060000770"; }
+	{ sn: "1170870172"; shortname: "JustParts"; longname: "JustParts"; imei: "300434060006770"; }
+	{ sn: "327197870"; shortname: "NOA-Hurricane-1"; longname: "SpongeBob"; imei: "300434060005760"; }
+	{ sn: "489567302"; shortname: "Quick Silver"; longname: "Quick Silver"; }
+	{ sn: "1884334410"; shortname: "Ripley"; longname: "Ripley"; }
+	{ sn: "908723339"; shortname: "Sea-Snails"; longname: "Sea-Snails"; imei: "300434060001720"; }
+	{ sn: "2059155003"; shortname: "Thor"; longname: "Thor"; imei: "300434060007860"; }
+	{ sn: "1673891039"; shortname: "War Machine"; longname: "War Machine"; imei: "300434060003740"; }
+//ENDAUTO
             ]
         },
         {
