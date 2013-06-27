@@ -110,22 +110,22 @@ wavegliders:[
                 { imei: 300234011344060; shortname: "SpongeBob" },
                 { imei: 300025010508030; shortname: "Sheild" },
                 { imei: 300025010011470; shortname: "Kaimana" },
-//BEGINAUTO	{ sn: 1260095230; shortname: "Abalone"; imei: 300434060008890; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; }
-	{ sn: 1329610081; shortname: "ArashVirtualBox"; avatar: "http://slab.liquidr.com/avatars/blueprintRobotAvatar.png"; }
-//	{ sn: 609054910; shortname: "AT-Ore"; imei: 300434060008890; avatar: "http://liquidr.github.io/avatars/at-ore.png"; host: "166.130.57.211"; }
-	{ sn: 648307211; shortname: "Black Widow"; imei: 300434060002740; avatar: "http://liquidr.github.io/avatars/BlackWidowAvatar.png"; }
-	{ sn: 1515151130; shortname: "Captain America"; imei: 300434060008760; avatar: "http://liquidr.github.io/avatars/CaptainAmericaAvatar.png"; }
-//	{ sn: 42; shortname: "Diehard"; imei: 300434060007850; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.10.2.73"; }
-	{ sn: 1966300422; shortname: "Gandalf"; imei: 300434060001740; avatar: "http://liquidr.github.io/avatars/GandalfAvatar.png"; host: "10.10.2.84"; }
-	{ sn: 2121578921; shortname: "Hulk"; imei: 300434060000770; avatar: "http://liquidr.github.io/avatars/HulkAvatar.png"; host: "10.10.2.91"; }
-	{ sn: 1170870172; shortname: "JustParts"; imei: 300434060006770; avatar: "http://liquidr.github.io/avatars/blueprintRobotAvatar.png"; host: "10.10.2.87"; }
-	{ sn: 327197870; shortname: "NOA-Hurricane-1"; longname: "SpongeBob"; imei: 300434060005760; avatar: "http://liquidr.github.io/avatars/NOAAavatar.png"; host: "10.10.2.73"; }
-	{ sn: 489567302; shortname: "Quick Silver"; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; }
-	{ sn: 1884334410; shortname: "Ripley"; avatar: "http://liquidr.github.io/avatars/RipleyAvatar.png"; host: "10.10.2.2"; }
-	{ sn: 908723339; shortname: "Sea-Snails"; imei: 300434060001720; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; }
-	{ sn: 2059155003; shortname: "Thor"; imei: 300434060007860; avatar: "http://liquidr.github.io/avatars/Thor.png"; }
+//BEGINAUTO
+	{ sn: 1260095230; shortname: "Abalone"; imei: 300434060008890; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; },
+	{ sn: 1329610081; shortname: "ArashVirtualBox"; avatar: "http://slab.liquidr.com/avatars/blueprintRobotAvatar.png"; },
+//	{ sn: 609054910; shortname: "AT-Ore"; imei: 300434060008890; avatar: "http://liquidr.github.io/avatars/at-ore.png"; host: "166.130.57.211"; },
+	{ sn: 648307211; shortname: "Black Widow"; imei: 300434060002740; avatar: "http://liquidr.github.io/avatars/BlackWidowAvatar.png"; },
+	{ sn: 1515151130; shortname: "Captain America"; imei: 300434060008760; avatar: "http://liquidr.github.io/avatars/CaptainAmericaAvatar.png"; },
+//	{ sn: 42; shortname: "Diehard"; imei: 300434060007850; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.10.2.73"; },
+	{ sn: 1966300422; shortname: "Gandalf"; imei: 300434060001740; avatar: "http://liquidr.github.io/avatars/GandalfAvatar.png"; host: "10.10.2.84"; },
+	{ sn: 2121578921; shortname: "Hulk"; imei: 300434060000770; avatar: "http://liquidr.github.io/avatars/HulkAvatar.png"; host: "10.10.2.91"; },
+	{ sn: 1170870172; shortname: "JustParts"; imei: 300434060006770; avatar: "http://liquidr.github.io/avatars/blueprintRobotAvatar.png"; host: "10.10.2.87"; },
+	{ sn: 327197870; shortname: "NOA-Hurricane-1"; longname: "SpongeBob"; imei: 300434060005760; avatar: "http://liquidr.github.io/avatars/NOAAavatar.png"; host: "10.10.2.73"; },
+	{ sn: 489567302; shortname: "Quick Silver"; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; },
+	{ sn: 1884334410; shortname: "Ripley"; avatar: "http://liquidr.github.io/avatars/RipleyAvatar.png"; host: "10.10.2.2"; },
+	{ sn: 908723339; shortname: "Sea-Snails"; imei: 300434060001720; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; },
+	{ sn: 2059155003; shortname: "Thor"; imei: 300434060007860; avatar: "http://liquidr.github.io/avatars/Thor.png"; },
 	{ sn: 1673891039; shortname: "War Machine"; imei: 300434060003740; avatar: "http://liquidr.github.io/avatars/WarMachineAvatar.png"; }
-
 //ENDAUTO
             ]
         },
