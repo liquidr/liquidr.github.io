@@ -11,7 +11,7 @@ wavegliders:[
             vehicles: [
                 { imei: 300025010601860; shortname: "G1"; }
                 { imei: 300025010607880; shortname: "G2"; }
-                { imei: 300025010608850; shortname: "G5"; }
+                { imei: 300025010608850; shortname: "G5"; requires: "=vr2ctest"; longname: "Carey" }
             ]
         },
         {   fleet: "Sharks";
