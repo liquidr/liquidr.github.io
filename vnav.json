@@ -1,0 +1,7 @@
+"9Help/0Readme": README.mkd
+"Help/9Version": version.mkd
+"Help/1Contact": contact.mkd
+"Help/About SV3 Wavegliders": "http://liquidr.com/technology/sv3.html"
+"Help/Liquid Robotics": "http://liquidr.com"
+"Operate/9Shutdown": "!exit"
+"Status/Network": "!netstat -a"
