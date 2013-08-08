@@ -281,6 +281,15 @@ wavegliders:[
     ]
 },
 {
+    institution: "Scripps Institute";
+    requires: ucsd;
+    fleet: ucsd;
+    vehicles: [
+        {shortname: "AIRSEA 1", longname: Pascal, sn: 689, imei: 300234011730670},
+        {shortname: "AIRSEA 2", longname: Kelvin, sn: 690, imei: 300234010583100}
+    ]
+},
+{
     institution: "Western Geco";
     fleet: WesternGeco;
     requires: WesternGeco;
