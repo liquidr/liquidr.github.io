@@ -225,6 +225,14 @@ wavegliders:[
     ]
 },
 {
+    institution: "University of Hawaii",
+    fleet: "hawaii.edu",
+    requires: "hawaii.edu",
+    vehicles: [
+        { shortname: "CIMES", sn: 1117; imei: 300234011485870 }
+    ]
+},
+{
     institution: "Woods Hole Oceanographic institute",
     fleet: WHOI;
     requires: whoi;
