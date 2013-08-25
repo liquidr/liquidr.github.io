@@ -18,7 +18,8 @@ ul.MenuBarHorizontal
 	list-style-type: none;
 	font-size: 100%;
 	cursor: default;
-	width: auto;
+        display: inline-block;
+        white-space: nowrap;
 }
 /* Set the active Menu Bar with this class, currently setting z-index to accomodate IE rendering bug: http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html */
 ul.MenuBarActive
@@ -34,8 +35,8 @@ ul.MenuBarHorizontal li
 	position: relative;
 	text-align: left;
 	cursor: pointer;
-	width: auto;
-	float: left;
+	width: 80px;
+	display: inline-block;
 	margin: 0;
 	border:none;
 }
@@ -49,15 +50,21 @@ ul.MenuBarHorizontal ul
 	z-index: 1020;
 	cursor: default;
 	width: 200px;
-	background-color: #0C3047;
 	position: absolute;
 	left: -1000em;
-	border:none;
+	border: none;
+        border-radius: 7px;
+        background-color: #f2f2e0;
+        white-space: normal;
 }
 /* Submenu that is showing with class designation MenuBarSubmenuVisible, we set left to auto so it comes onto the screen below its parent menu item */
 ul.MenuBarHorizontal ul.MenuBarSubmenuVisible
 {
 	left: auto;
+}
+/*ul.MenuBarHorizontal*/ ul.MenuBarSubmenuVisible:last-child
+{
+	left: -40px;
 }
 /* Menu item containers are same fixed width as parent */
 ul.MenuBarHorizontal ul li
@@ -94,24 +101,24 @@ ul.MenuBarHorizontal a
 {
 	display: block;
 	cursor: pointer;
-	background-color: #0C3047;
+	background-color: inherit;
 	padding: 0.5em 1.5em;
-	color: #D4E3F5;
+	color: inherit;
 	text-decoration: none;
 	border:none;
 }
 /* Menu items that have mouse over or focus have a blue background and white text */
 ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
 {
-	background-color: #0C3047;
-	color: #FF33CC;
+	background-color: #fff;
+	color: inherit;
 	border:none;
 }
 /* Menu items that are open with submenus are set to MenuBarItemHover with a blue background and white text */
 ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal a.MenuBarSubmenuVisible
 {
-	background-color: #0C3047;
-	color: #FF33CC;
+	background-color: fff;
+	color: inherit;
 	border:none;
 }
 
