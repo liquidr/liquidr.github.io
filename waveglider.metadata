@@ -233,6 +233,14 @@ wavegliders:[
     ]
 },
 {
+    institution: "JCG",
+    fleet: jcg,
+    requires: jcg,
+    vehicles: [
+        { shortname: "Miduki"; sn: 1108446254; imei: 300234060219960; }
+    ]
+},
+{
     institution: "Woods Hole Oceanographic institute",
     fleet: WHOI;
     requires: whoi;
