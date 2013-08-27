@@ -201,7 +201,8 @@ wavegliders:[
         {   shortname: "MBARI Tex";
             sn: 1709513817;
             imei: 300234011487870
-        }
+        },
+        { shortname: Tex; sn: 913; imei: 300234011487870 }
     ]
 },
 {   institution: "Dalhousie University"
