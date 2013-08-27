@@ -84,10 +84,6 @@ wavegliders:[
             requires: hawaii,
             vehicles: [
                 {   imei: 300234010416160,
-                    shortname: "A'a",
-                    sn: 860481287
-                },
-                {   imei: 300234010416160,
                     shortname: "R1"
                 },
                 {   imei: 300025010600890,
@@ -229,7 +225,11 @@ wavegliders:[
     fleet: "hawaii.edu",
     requires: "hawaii.edu",
     vehicles: [
-        { shortname: "CIMES", sn: 1117; imei: 300234011485870 }
+        { shortname: "CIMES", sn: 1117; imei: 300234011485870 },
+        {   imei: 300234010416160,
+            shortname: "A'a",
+            sn: 860481287
+        }
     ]
 },
 {
