@@ -229,7 +229,7 @@ wavegliders:[
         {   imei: 300234010416160,
             shortname: "A'a",
             sn: 860481287.
-            requires: "=ndg",
+            requires:  "=ndg",
         }
     ]
 },
