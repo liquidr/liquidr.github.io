@@ -25,7 +25,7 @@ body { background: #eee; padding:0; margin:0; border: 0;
         background-origin: padding-box; */
 }
 div.navBadge {
-    position:fixed; z-index: 99; left:0px; bottom:0px; margin: 10px; width: 100%;
+    position:fixed; z-index: 99; left:0px; bottom:0px; margin: 0; padding: 10px; width: 100%;
 }
 table.nowrap td { white-space: nowrap }
 @media print {
