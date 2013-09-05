@@ -27,7 +27,7 @@ body { background: #eee; padding:0; margin:0; border: 0;
 div.navBadge {
     position:fixed; z-index: 99; left:10px; bottom:10px
 }
-
+table.nowrap td { white-space: nowrap }
 @media print {
 td.body { background: white; border: none; border-radius: 0; }
 body { font-family: sans-serif; }
