@@ -4,11 +4,11 @@ Data/4Software Lab: /index.html
 Data/5*Manage: /fetch/manage
 Data/6Logout: /logout
 <p>
-Go/1LiquidR: http://liquidr.com
-Go/2Technology: http://liquidr.com/technology/
-Go/3PacX Blog: http://pacxdata.liquidr.com
-Go/4About Us: http://liquidr.com/company/about-us/
-Go/5Contact: http://liquidr.com/contact/
-Go/6Jobs: http://liquidr.com/careers/
-Go/7News: http://liquidr.com/press/press-releases/
-Go/8*Cluster: /ClusterMonitor/
+Main/1LiquidR: http://liquidr.com
+Main/2Technology: http://liquidr.com/technology/
+Main/3PacX Blog: http://pacxdata.liquidr.com
+Main/4About Us: http://liquidr.com/company/about-us/
+Main/5Contact: http://liquidr.com/contact/
+Main/6Jobs: http://liquidr.com/careers/
+Main/7News: http://liquidr.com/press/press-releases/
+Main/8*Cluster: /ClusterMonitor/
