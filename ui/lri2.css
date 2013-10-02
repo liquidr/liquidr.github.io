@@ -17,15 +17,11 @@ body-v1 { /*background: #eee; */padding:0; margin:0; border: 0;
        }
 }
 body { background: #eee; padding:0; margin:0; border: 0;
-       font-family:  sans-serif; word-wrap: break-word;
-    /*   background-attachment: fixed;
-        background-color: #EEF;
-        background-size: 100%;
-        background-image: url("/images/GliderWithRainbowBG.jpg");
-        background-origin: padding-box; */
+       font-family: sans-serif; word-wrap: break-word;
 }
 div.navBadge {
     position:fixed; z-index: 99; left:0px; bottom:0px; margin: 0; padding: 0px; width: 100%;
+    pointer-events: none;
 }
 div.navBadge table {
     padding: 10px; width: 100%;
@@ -39,6 +35,7 @@ body { font-family: sans-serif; }
 .skipPrint { display: none; }
 /*.newPage { page-break-before: always; } */
 }
+#menubar { background: transparent; }
 
 div.bigChart { width: 6in; display: block; height: 4in; background: white;
                border-radius: 17px; margin-top: 20px; padding: 5px; }
