@@ -5,6 +5,12 @@ wavegliders:[
     fleet: liquidr,
     requires: liquidr,
     vehicles: [
+        {   fleet: "Test";
+            requires: test;
+            vehicles: [
+                { imei: 300234010581090; shortname: "A3"; }
+            ]
+        },
         {
             fleet: "Gulf";
             requires: gulf;
@@ -19,7 +25,7 @@ wavegliders:[
             vehicles: [
                 { imei: 300025010107550; shortname: "Schatzi"; }
             ]
-        }
+        },
         {   fleet: pacx,
             public: true,
             requires: "=pacx|public";
