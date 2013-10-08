@@ -8,7 +8,7 @@ wavegliders:[
         {   fleet: "Test";
             requires: test;
             vehicles: [
-                { imei: 300234010581090; shortname: "A3"; }
+                { sn: 1087005342; shortname: "A3"; imei: 300234010581090; }
             ]
         },
         {
