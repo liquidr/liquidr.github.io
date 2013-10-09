@@ -5,6 +5,12 @@ wavegliders:[
     fleet: liquidr,
     requires: liquidr,
     vehicles: [
+        {   fleet: "CMRE";
+            requires: cmre;
+            vehicles: [
+                { shortname: "Carol"; imei: 300234010587090; }
+            ]
+        },
         {   fleet: "Test";
             requires: test;
             vehicles: [
