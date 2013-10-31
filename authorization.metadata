@@ -1,0 +1,76 @@
+{ // The time & org-based authorization file for Fetch
+    tokens:[
+        {   token: cmre;
+            authorized: [ { vehicle: carol; } ]
+        },
+        { token: test;
+            authorized: [ { vehicle: A3; } ]
+        },
+        { token: gulf;
+            authorized: [ {vehicle: G1 }, {vehicle: G2 } ]
+        },
+        { token: vr2ctest;
+            authorized: [ {vehicle: G5 } ]
+        },
+        { token: sharks;
+            authorized: [ {vehicle: Schatzi } ]
+        }, 
+        { token: pacx;
+            authorized: [ {vehicle: PCX_1 } , {vehicle: PCX_2 }, 
+            {vehicle: PCX_3 }, {vehicle : PCX_4 } ]
+        },
+        { token: hawaii;
+            authorized: [ {vehicle: R1 }, {vehicle: Nalu }, 
+            {vehicle: Prometheus}, {vehicle: Cartman}, {vehicle: Stan},
+            {vehicle: Kenny}, {vehicle: Kyle}, {vehicle: SpongeBob}, 
+            {vehicle:Sheild}, {vehicle: Kaimana} ]
+        },
+        { token: engineering;
+            authorized: [ {vehicle: SW_1733 }, {vehicle: SW_1734 } ]
+        },
+        { token: demo;
+            authorized: [ {vehicle: Demo1}, {vehicle: Demo2 }, {vehicle: Demo3} ]
+        },
+        { token: harmony;
+            authorized: [ {vehicle: H1}, {vehicle: H2}, {vehicle: H3}, ]
+        },
+        { token: mbari;
+            authorized: [ {vehicle: "MBARI OA" }, {vehicle: "MBARI Tex" } ]
+        },
+        { token: otn;
+            authorized: [ {vehicle: "SO 174" } ]
+        },
+        { token: cvx;
+            authorized: [ { vehicle: "cvx.so-2004-1" }, {vehicle: "cvx.wuruwuru"} ]
+        },
+        { token: "hawaii.edu";
+            authorized: [ { vehicle: CIMES } ]
+        }, 
+        { token: ndg;
+            authorized: [ {vehicle: "A'a" } ]
+        },
+        { token: jcg;
+            authorized: [ {vehicle: Miduki } ]
+        },
+        { token: whoi;
+            authorized: [ {vehicle: "WHOI-ASL2" }, {vehicle: "WHOI-ASL3" },
+                { vehicle: "WHOI-ASL4" }, {vehicle: "WHOI-Hawaii" }, 
+                { vehicle: "WHOI-APS" }, {vehicle: "WHOI-PhilSea" }, 
+                { vehicle: "WHOI-SAIC"}, {vehicle: "WHOI-ASL22" },
+                { vehicle: "WHOI-ASL32"}, {vehicle: "WHOI-ASL42"} ]
+        },
+        { token: noaa;
+            authorized: [ {vehicle: "NDBC_1"}, {vehicle: "NDBC_2"} ]
+        },
+        { token: hsd;
+            authorized: [ {vehicle: Namihei } ]
+        },
+        { token: ucsd;
+            authorized: [ {vehicle: "Airsea 1"}, {vehicle: "Airsea 2"} ]
+        },
+        { token: WesternGeco;
+            authorized: [ {vehicle: "WesternGeco.CBS.1"}, 
+                {vehicle: "WesternGeco.CBS.2"}, {vehicle: "WesternGeco.CBS.3"} ]
+        } 
+    ]
+}
