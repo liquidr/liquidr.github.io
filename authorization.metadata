@@ -4,7 +4,7 @@
     authorized: [
         {
             token: testtoken;
-            authorized: [ {vehicle: "A'a"; start: "10/01/2013"; } ]
+            authorized: [ {vehicle: "A'a"; start: "10/01/2013"; end: "10/03/2013" } ]
         },
         {   token: cmre;
             authorized: [ { vehicle: carol; } ]
