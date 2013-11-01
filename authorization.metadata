@@ -2,6 +2,10 @@
     tokens:[
 {   token: liquidr;
     authorized: [
+        {
+            token: testtoken;
+            authorized: [ {vehicle: "A'a"; start: "01/10/2013"; } ]
+        },
         {   token: cmre;
             authorized: [ { vehicle: carol; } ]
         },
