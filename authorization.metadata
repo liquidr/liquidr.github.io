@@ -1,6 +1,7 @@
 { // The time & org-based authorization file for Fetch
     tokens:[
-{ token: liquidr;
+{   token: liquidr;
+    authorized: [
         {   token: cmre;
             authorized: [ { vehicle: carol; } ]
         },
@@ -38,7 +39,7 @@
         },
         { token: harmony;
             authorized: [ {vehicle: H1}, {vehicle: H2}, {vehicle: H3}, ]
-        }
+        } ]
 },
         { token: mbari;
             authorized: [ {vehicle: "MBARI OA" }, {vehicle: "MBARI Tex" } ]
