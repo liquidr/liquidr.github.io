@@ -19,6 +19,10 @@
             authorized: [ {vehicle: PCX_1 } , {vehicle: PCX_2 }, 
             {vehicle: PCX_3 }, {vehicle : PCX_4 } ]
         },
+        { token: public;
+            authorized: [ {vehicle: PCX_1 } , {vehicle: PCX_2 }, 
+            {vehicle: PCX_3 }, {vehicle : PCX_4 } ]
+        },
         { token: hawaii;
             authorized: [ {vehicle: R1 }, {vehicle: Nalu }, 
             {vehicle: Prometheus}, {vehicle: Cartman}, {vehicle: Stan},
