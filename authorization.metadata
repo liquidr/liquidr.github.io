@@ -26,19 +26,53 @@
             {vehicle: PCX_3 }, {vehicle : PCX_4 } ]
         },
         { token: hawaii;
-            authorized: [ {vehicle: R1 }, {vehicle: Nalu }, 
-            {vehicle: Prometheus}, {vehicle: Cartman}, {vehicle: Stan},
-            {vehicle: Kenny}, {vehicle: Kyle}, {vehicle: SpongeBob}, 
-            {vehicle:Sheild}, {vehicle: Kaimana} ]
+            authorized: [ 
+            {vehicle: R1 }, 
+            {vehicle: Nalu }, 
+            {vehicle: Prometheus}, 
+            {vehicle: Cartman}, 
+            {vehicle: Stan},
+            {vehicle: Kenny}, 
+            {vehicle: Kyle}, 
+            {vehicle: SpongeBob}, 
+            {vehicle:Sheild}, 
+            {vehicle: Kaimana}, 
+            {vehicle: Abalone }, 
+            {vehicle: "ArashVirtualBox"}, 
+            {vehicle: "AT-Ore"}, 
+            {vehicle: "Black Widow"}, 
+            {vehicle: "Captain America"}, 
+            {vehicle: "Diehard"}, 
+            {vehicle: "Gandalf"}, 
+            {vehicle: "Hulk"}, 
+            {vehicle: "JustParts"}, 
+            {vehicle: "NOA-Hurricane-1"},
+            {vehicle: "Quick Silver"}, 
+            {vehicle: "Ripley"}, 
+            {vehicle: "Sea-Snails"},
+            {vehicle:  "Thor"}, 
+            {vehicle: "War Machine"}  
+            ]
         },
         { token: engineering;
-            authorized: [ {vehicle: SW_1733 }, {vehicle: SW_1734 } ]
+            authorized: [ 
+            {vehicle: SW_1733 }, 
+            {vehicle: SW_1734 } 
+            ]
         },
         { token: demo;
-            authorized: [ {vehicle: Demo1}, {vehicle: Demo2 }, {vehicle: Demo3} ]
+            authorized: [ 
+        {vehicle: Demo1}, 
+        {vehicle: Demo2 }, 
+        {vehicle: Demo3} 
+        ]
         },
         { token: harmony;
-            authorized: [ {vehicle: H1}, {vehicle: H2}, {vehicle: H3}, ]
+            authorized: [ 
+            {vehicle: H1}, 
+            {vehicle: H2}, 
+            {vehicle: H3}, 
+            ]
         } ]
 },
         { token: mbari;
@@ -60,11 +94,18 @@
             authorized: [ {vehicle: Miduki } ]
         },
         { token: whoi;
-            authorized: [ {vehicle: "WHOI-ASL2" }, {vehicle: "WHOI-ASL3" },
-                { vehicle: "WHOI-ASL4" }, {vehicle: "WHOI-Hawaii" }, 
-                { vehicle: "WHOI-APS" }, {vehicle: "WHOI-PhilSea" }, 
-                { vehicle: "WHOI-SAIC"}, {vehicle: "WHOI-ASL22" },
-                { vehicle: "WHOI-ASL32"}, {vehicle: "WHOI-ASL42"} ]
+            authorized: [ 
+            {vehicle: "WHOI-ASL2" }, 
+            {vehicle: "WHOI-ASL3" },
+            {vehicle: "WHOI-ASL4" }, 
+            {vehicle: "WHOI-Hawaii" }, 
+            {vehicle: "WHOI-APS" }, 
+            {vehicle: "WHOI-PhilSea" }, 
+            {vehicle: "WHOI-SAIC"}, 
+            {vehicle: "WHOI-ASL22" },
+            {vehicle: "WHOI-ASL32"}, 
+            {vehicle: "WHOI-ASL42"} 
+            ]
         },
         { token: noaa;
             authorized: [ {vehicle: "NDBC_1"}, {vehicle: "NDBC_2"} ]
