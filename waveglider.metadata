@@ -5,6 +5,13 @@ wavegliders:[
     fleet: liquidr,
     requires: liquidr,
     vehicles: [
+        {   fleet: "ASMA";
+            requires: asma;
+            vehicles: [
+            { shortname: ASMA1; imei:300234060215880; sn: 1832630948;}
+            { shortname: ASMA2; imei:300234060216670; sn: 1293987303;}
+            ]
+        },
         {   fleet: "CMRE";
             requires: cmre;
             vehicles: [
