@@ -1,5 +1,12 @@
 { // The time & org-based authorization file for Fetch
     tokens:[
+{   token: lrog;
+        authorized: [
+        {   token: wgtotaluruguay; 
+            authorized: [ {vehicle: LROG15; start: "10/29/2013" },
+            ]
+        },
+},
 {   token: liquidr;
     authorized: [
         {
