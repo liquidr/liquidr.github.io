@@ -197,6 +197,17 @@ wavegliders:[
         }
     ]
 },
+{   institution: "LROG", 
+    fleet: lrog,
+    requires: lrog,
+    vehicles: [
+        {   fleet: wgtotaluruguay;
+            requires: wgtotaluruguay;
+            vehicles: [
+                { shortname: LROG15; imei: [399999999999999, "10/29/2013", 300234011573990]; sn: 972877962}
+            ]
+        }
+},
 {
     institution: "Monterey Bay Aquarium Research Institute",
     fleet: mbari,
