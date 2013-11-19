@@ -134,6 +134,11 @@
         { token: WesternGeco;
             authorized: [ {vehicle: "WesternGeco.CBS.1"}, 
                 {vehicle: "WesternGeco.CBS.2"}, {vehicle: "WesternGeco.CBS.3"} ]
-        } 
+        },
+        {   token: asma;
+            authorized: [ {vehicle: "ASMA1" },
+                          {vehicle: "ASMA2" }
+                        ]
+        }, 
     ]
 }
