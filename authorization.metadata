@@ -1,11 +1,20 @@
 { // The time & org-based authorization file for Fetch
     tokens:[
+{   token: lrog;
+    authorized: [
+        {   token: wgtotaluruguay; 
+            authorized: [ {vehicle: LROG15; start: "10/29/2013" },
+            ]
+        }
+    ]
+},
 {   token: liquidr;
     authorized: [
         {
             token: testtoken;
             authorized: [ {vehicle: "A'a"; start: "10/01/2013"; end: "10/02/2013" },
-                          {vehicle: "A'a"; start: "10/04/2013"; end: "10/05/2013" }
+                          {vehicle: "A'a"; start: "10/04/2013"; end: "10/05/2013" },
+                          {vehicle: "A'a"; start: "10/01/2013"; sensor: "Weather"}
              ]
         },
         {   token: cmre;
@@ -125,6 +134,11 @@
         { token: WesternGeco;
             authorized: [ {vehicle: "WesternGeco.CBS.1"}, 
                 {vehicle: "WesternGeco.CBS.2"}, {vehicle: "WesternGeco.CBS.3"} ]
-        } 
+        },
+        {   token: asma;
+            authorized: [ {vehicle: "ASMA1" },
+                          {vehicle: "ASMA2" }
+                        ]
+        }, 
     ]
 }

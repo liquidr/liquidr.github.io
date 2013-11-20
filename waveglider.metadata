@@ -8,8 +8,8 @@ wavegliders:[
         {   fleet: "ASMA";
             requires: asma;
             vehicles: [
-            { shortname: ASMA1; imei:300234060215880; sn: 1832630948;}
-            { shortname: ASMA2; imei:300234060216670; sn: 1293987303;}
+            { shortname: "ASMA1"; imei:300234060215880; sn: 1832630948;},
+            { shortname: "ASMA2"; imei:300234060216670; sn: 1293987303;}
             ]
         },
         {   fleet: "CMRE";
@@ -28,8 +28,8 @@ wavegliders:[
             fleet: "Gulf";
             requires: gulf;
             vehicles: [
-                { imei: 300025010601860; shortname: "G1"; }
-                { imei: 300025010607880; shortname: "G2"; }
+                { imei: 300025010601860; shortname: "G1"; },
+                { imei: 300025010607880; shortname: "G2"; },
                 { imei: 300025010608850; shortname: "G5"; requires: "=vr2ctest"; longname: "Carey" }
             ]
         },
@@ -193,6 +193,18 @@ wavegliders:[
                 {   shortname: "H1"; imei: 300025010228220; sn: 1631009215 },
                 {   shortname: "H2"; imei: 300025010418250; sn: 605425387 },
                 {   shortname: "H3"; imei: 300025010717720; sn: 701741378 },
+            ]
+        }
+    ]
+},
+{   institution: "LROG", 
+    fleet: lrog,
+    requires: lrog,
+    vehicles: [
+        {   fleet: wgtotaluruguay;
+            requires: wgtotaluruguay;
+            vehicles: [
+                { shortname: LROG15; imei: [399999999999999, "10/29/2013", 300234011573990]; sn: 972877962}
             ]
         }
     ]
