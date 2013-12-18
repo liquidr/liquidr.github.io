@@ -16,6 +16,7 @@
 {"mmsi":338060089,      "shipname":"TEST2 ATSUGI",      "latitude":"35.44000",  "longitude":"138.11800",        "heading":"TEST2ATSUGI"},
 {"mmsi":338060091,      "shipname":"SHINE ST162 TEST3", "latitude":"30.12817",  "longitude":"-81.52467",        "heading":"TEST3CECIL"},
 {"mmsi":338060092,      "shipname":"SHINE ST162 TEST4", "latitude":"48.11783",  "longitude":"-122.37817",       "heading":"TEST4COUPEVILLE"},
-{"mmsi":338060093,      "shipname":"SHINE ST162 TEST5", "latitude":"21.18583",  "longitude":"-158.02917",       "heading":"TEST5BARBERS"}
+{"mmsi":338060093,      "shipname":"SHINE ST162 TEST5", "latitude":"21.18583",  "longitude":"-158.02917",       "heading":"TEST5BARBERS"},
+{"mmsi":338060021 }
 ]
 }
