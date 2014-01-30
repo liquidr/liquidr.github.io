@@ -5,6 +5,10 @@
         {   token: wgtotaluruguay; 
             authorized: [ {vehicle: LROG15; start: "10/29/2013" },
             ]
+        },
+        {   token: cop; 
+            authorized: [ {vehicle: LROG25; start: "01/27/2014" },
+            ]
         }
     ]
 },
