@@ -346,6 +346,14 @@ wavegliders:[
         { shortname: "WesternGeco.CBS.2"; imei: 300234011347040 }
         { shortname: "WesternGeco.CBS.3"; imei: 300234010582090 }
     ]
+},
+{
+    institution: "Conoco Phillips";
+    fleet: COP;
+    requires: cop;
+    vehicles: [
+        { shortname: "LROG23"; imei: 300234011673000; sn: 1420565844 }
+    ]
 }
 ],
 users:[
