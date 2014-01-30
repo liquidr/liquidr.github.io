@@ -352,7 +352,9 @@ wavegliders:[
     fleet: COP;
     requires: cop;
     vehicles: [
-        { shortname: "LROG23"; imei: 300234011673000; sn: 1420565844 }
+        { shortname: "LROG23"; imei: 300234011673000; sn: 1420565844 },
+        { shortname: "LROG29"; imei: 300234011480870; sn: 1103086026 },
+        { shortname: "LROG33"; imei: 300234011577990; sn: 139926116 }
     ]
 }
 ],
