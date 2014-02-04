@@ -9,7 +9,10 @@
         {   token: cop; 
             authorized: [ {vehicle: LROG23; start: "01/27/2014" },
                         {vehicle: LROG29; start: "01/27/2014" },
-                        {vehicle: LROG33; start: "01/27/2014" }
+                        {vehicle: LROG33; start: "01/27/2014" },
+                        {vehicle: LROG10; start: "01/27/2014" },
+                        {vehicle: LROG13; start: "01/27/2014" },
+                        {vehicle: LROG32; start: "01/27/2014" },
             ]
         }
     ]
