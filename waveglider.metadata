@@ -28,7 +28,7 @@ wavegliders:[
             fleet: "Gulf";
             requires: gulf;
             vehicles: [
-                { imei: 300025010601860; shortname: "G1"; },
+                { imei: 300025010601860; shortname: "G1"; sn: 135;},
                 { imei: 300025010607880; shortname: "G2"; },
                 { imei: 300025010608850; shortname: "G5"; requires: "=vr2ctest"; longname: "Carey" }
             ]
@@ -345,6 +345,19 @@ wavegliders:[
         { shortname: "WesternGeco.CBS.1"; imei: 300234011343060 }
         { shortname: "WesternGeco.CBS.2"; imei: 300234011347040 }
         { shortname: "WesternGeco.CBS.3"; imei: 300234010582090 }
+    ]
+},
+{
+    institution: "Conoco Phillips";
+    fleet: COP;
+    requires: cop;
+    vehicles: [
+        { shortname: "LROG10"; imei: 300234010585080; sn: 1375953315 },
+        { shortname: "LROG13"; imei: 300234011671000; sn: 1805829808 },
+        { shortname: "LROG23"; imei: 300234011673000; sn: 1420565844 },
+        { shortname: "LROG29"; imei: 300234011480870; sn: 1103086026 },
+        { shortname: "LROG32"; imei: 300234011485880; sn: 1392033999 },
+        { shortname: "LROG33"; imei: 300234011577990; sn: 139926116 }
     ]
 }
 ],
