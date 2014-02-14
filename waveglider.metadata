@@ -179,7 +179,7 @@ wavegliders:[
                     longname: "Mercury";
                     sn: 303,
                 },
-                {   imei: 300234011341050;
+                {   imei: 300234011341050 "7/18/2013" 399999999999999;
                     shortname: "Demo3";
                     longname: "Gysin";
                     sn: 1896785571;
