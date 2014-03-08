@@ -9,7 +9,9 @@ wavegliders:[
             requires: asma;
             vehicles: [
             { shortname: "ASMA1"; imei:300234060215880; sn: 1832630948;},
-            { shortname: "ASMA2"; imei:300234060216670; sn: 1293987303;}
+            { shortname: "ASMA2"; imei:300234060216670; sn: 1293987303;},
+            { shortname: "ASMA3"; imei:300234060218670; sn: 840939193;},
+            { shortname: "ASMA4"; imei:300234060211410; sn: 710731129;}
             ]
         },
         {   fleet: "CMRE";
@@ -346,8 +348,8 @@ wavegliders:[
     fleet: noaa;
     requires: noaa;
     vehicles: [
-        {   shortname: "NDBC_1"; imei: 300234010589090; sn: 889013132 },
-        {   shortname: "NDBC_2"; imei: 300034012287170; sn: 261 },
+        {   shortname: "NDBC_1"; imei: [300234010589090, "1/8/2013", 300034013909800]; sn: 889013132 },
+        {   shortname: "NDBC_2"; imei: [300034012287170, "1/8/2013", 300234010589090]; sn: 261 },
     ]
 },
 {

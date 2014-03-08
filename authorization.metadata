@@ -146,7 +146,9 @@
         },
         {   token: asma;
             authorized: [ {vehicle: "ASMA1" },
-                          {vehicle: "ASMA2" }
+                          {vehicle: "ASMA2" },
+                          {vehicle: "ASMA3" },
+                          {vehicle: "ASMA4" }
                         ]
         }, 
     ]
