@@ -100,7 +100,7 @@
         } ]
 },
         { token: mbari;
-            authorized: [ {vehicle: "MBARI OA" }, {vehicle: "MBARI Tex" } ]
+            authorized: [ {vehicle: "MBARI OA" }, {vehicle: "MBARI Tex" }, {vehicle: "SV3-011"} ]
         },
         { token: otn;
             authorized: [ {vehicle: "SO 174" } ]
