@@ -6,6 +6,10 @@
             authorized: [ {vehicle: LROG15; start: "10/29/2013" },
             ]
         },
+        {   token: wgtotalnigeria; 
+            authorized: [ {vehicle: LROG02; start: "03/07/2014" },
+            ]
+        },
         {   token: cop; 
             authorized: [ {vehicle: LROG23; start: "01/27/2014" },
                         {vehicle: LROG29; start: "01/27/2014" },

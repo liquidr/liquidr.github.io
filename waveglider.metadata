@@ -238,6 +238,12 @@ wavegliders:[
             vehicles: [
                 { shortname: LROG15; imei: [399999999999999, "10/29/2013", 300234011573990]; sn: 972877962}
             ]
+        },
+        {   fleet: wgtotalnigeria;
+            requires: wgtotalnigeria;
+            vehicles: [
+                { shortname: LROG02; imei: [399999999999999, "03/07/2014", 300234010583090]; sn: 350369487}
+            ]
         }
     ]
 },
