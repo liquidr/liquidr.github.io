@@ -7,7 +7,7 @@
             ]
         },
         {   token: wgtotalnigeria; 
-            authorized: [ {vehicle: LROG02; start: "03/07/2014" },
+            authorized: [ {vehicle: LROG02; start: "03/05/2014" },
             ]
         },
         {   token: cop; 
