@@ -6,6 +6,10 @@
             authorized: [ {vehicle: LROG15; start: "10/29/2013" },
             ]
         },
+        {   token: wgtotalnigeria; 
+            authorized: [ {vehicle: LROG02; start: "03/05/2014" },
+            ]
+        },
         {   token: cop; 
             authorized: [ {vehicle: LROG23; start: "01/27/2014" },
                         {vehicle: LROG29; start: "01/27/2014" },
@@ -100,7 +104,7 @@
         } ]
 },
         { token: mbari;
-            authorized: [ {vehicle: "MBARI OA" }, {vehicle: "MBARI Tex" } ]
+            authorized: [ {vehicle: "MBARI OA" }, {vehicle: "MBARI Tex" }, {vehicle: "SV3-011"} ]
         },
         { token: otn;
             authorized: [ {vehicle: "SO 174" } ]
@@ -146,7 +150,9 @@
         },
         {   token: asma;
             authorized: [ {vehicle: "ASMA1" },
-                          {vehicle: "ASMA2" }
+                          {vehicle: "ASMA2" },
+                          {vehicle: "ASMA3" },
+                          {vehicle: "ASMA4" }
                         ]
         }, 
     ]
