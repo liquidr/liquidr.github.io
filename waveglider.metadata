@@ -103,7 +103,16 @@ wavegliders:[
         {
         fleet: magi, 
         requires: magi,
-        vehicles: [ { imei: 300025010422020, sn: 1240385023, shortname: "HoneyBadger", longname: "Honey Badger" } ]
+        vehicles: [ { imei: 300025010422020, sn: 1240385023, shortname: "HoneyBadger", longname: "Honey Badger",
+                    oxy:{ id:0223,
+                            soc: 2.0977e-4,
+                            foffset: -811.45,
+                            a: -3.1820e-3,
+                            b: 1.6467e-4,
+                            c: -2.3278e-6,
+                            e: 0.036,
+                            date: "02/26/2013" }
+ } ]
         },   
         {
             fleet: hawaii,
