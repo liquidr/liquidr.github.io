@@ -112,6 +112,9 @@
         { token: cvx;
             authorized: [ { vehicle: "cvx.so-2004-1" }, {vehicle: "cvx.wuruwuru"} ]
         },
+        { token: magi; 
+            authorized: [ {vehicle: "HoneyBadger" } ]
+        },
         { token: "hawaii.edu";
             authorized: [ { vehicle: CIMES } ]
         }, 

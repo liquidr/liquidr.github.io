@@ -86,7 +86,7 @@ wavegliders:[
                         c: -2.7547e-6,
                         e: 0.036 }
                 },
-                { imei: [ 300025010607490, "3/28/2012", 300025010219630, "5/1/2013", 300025010422020 ]
+                { imei: [ 300025010607490, "3/28/2012", 300025010219630, "5/1/2013", 300025010422020, "1/1/2014", 399999999999999 ]
                     longname:"Fontaine Maru",
                     shortname: "PCX_4",
                     destination: Japan
@@ -100,6 +100,20 @@ wavegliders:[
                 },
             ]
         },
+        {
+        fleet: magi, 
+        requires: magi,
+        vehicles: [ { imei: 300025010422020, sn: 1240385023, shortname: "HoneyBadger", longname: "Honey Badger",
+                    oxy:{ id:0223,
+                            soc: 2.0977e-4,
+                            foffset: -811.45,
+                            a: -3.1820e-3,
+                            b: 1.6467e-4,
+                            c: -2.3278e-6,
+                            e: 0.036,
+                            date: "02/26/2013" }
+ } ]
+        },   
         {
             fleet: hawaii,
             requires: hawaii,
