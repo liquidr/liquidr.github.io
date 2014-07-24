@@ -113,7 +113,7 @@
             authorized: [ { vehicle: "cvx.so-2004-1" }, {vehicle: "cvx.wuruwuru"} ]
         },
         { token: magi; 
-            authorized: [ {vehicle: "HoneyBadger" } ]
+            authorized: [ {vehicle: "HoneyBadger", end: "7/17/2014"}, {vehicle: "FontaineMaru", start: "7/17/2014" } ]
         },
         { token: "hawaii.edu";
             authorized: [ { vehicle: CIMES } ]
