@@ -17,6 +17,13 @@
                         {vehicle: LROG10; start: "01/27/2014" },
                         {vehicle: LROG13; start: "01/27/2014" },
                         {vehicle: LROG32; start: "01/27/2014" },
+                        {vehicle: LROG20; start: "08/01/2014"; end: "09/15/2014"},
+                        {vehicle: LROG24; start: "08/01/2014"; end: "09/15/2014"},
+                        {vehicle: "SV3-013"; start: "08/01/2014"; end: "09/15/2014"},
+                        {vehicle: "SV3-024"; start: "08/01/2014"; end: "09/15/2014"},
+                        {vehicle: "SV3-035"; start: "08/01/2014"; end: "09/15/2014"},
+                        {vehicle: "SV3-037"; start: "08/01/2014"; end: "09/15/2014"},
+                        {vehicle: "SV3-039"; start: "08/01/2014"; end: "09/15/2014"},
             ]
         }
     ]

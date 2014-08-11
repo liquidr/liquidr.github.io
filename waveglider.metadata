@@ -422,7 +422,14 @@ wavegliders:[
         { shortname: "LROG23"; imei: 300234011673000; sn: 1420565844 },
         { shortname: "LROG29"; imei: 300234011480870; sn: 1103086026 },
         { shortname: "LROG32"; imei: 300234011485880; sn: 1392033999 },
-        { shortname: "LROG33"; imei: 300234011577990; sn: 139926116 }
+        { shortname: "LROG33"; imei: 300234011577990; sn: 139926116 },
+        { shortname: "LROG20"; imei: 300234011341060; },
+        { shortname: "LROG24"; imei: 300234011344070; },
+        { shortname: "SV3-013"; imei: 300434060704180; },
+        { shortname: "SV3-024"; imei: 300434060702200; },
+        { shortname: "SV3-035"; imei: 300434060621290; },
+        { shortname: "SV3-037"; imei: 300434060623970; },
+        { shortname: "SV3-039"; imei: 300434060628310; },
     ]
 }
 ],
