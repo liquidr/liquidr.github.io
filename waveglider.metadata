@@ -277,6 +277,7 @@ wavegliders:[
     fleet: mbari,
     requires: mbari,
     vehicles:[
+        { sn: 794595959; shortname: "Tiny"; imei: 300434060708190;},
         {   imei: 300034013529390;
             sn: 878292676;
             shortname: "MBARI OA"
