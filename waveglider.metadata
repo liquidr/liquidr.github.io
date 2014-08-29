@@ -335,7 +335,19 @@ wavegliders:[
     fleet: mbari,
     requires: mbari,
     vehicles:[
-        { sn: 794595959; shortname: "Tiny"; imei: 300434060708190;},
+        { sn: 794595959; 
+        shortname: "Tiny"; 
+        imei: 300434060708190;
+        oxy: {id: 0212,
+            soc: 2.9681e-4,
+            foffset: -787.66,
+            a: -2.7123e-3,
+            b:  2.0315e-4,
+            c: -3.8309e-6,
+            e: 0.036,
+            date: "21/05/2014"
+        }
+        },
         {   imei: 300034013529390;
             sn: 878292676;
             shortname: "MBARI OA"
