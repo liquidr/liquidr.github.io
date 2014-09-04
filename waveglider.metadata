@@ -32,6 +32,9 @@ wavegliders:[
             vehicles: [
                 { imei: 300025010601860; shortname: "G1"; sn: 135;},
                 { imei: 300025010607880; shortname: "G2"; },
+                { imei: 300234011486910; shortname: "G10"; sn: 1584665981; },
+                { imei: 300234011180610; shortname: "G11"; sn: 632226527; },
+                { imei: 300234011188590; shortname: "G12"; sn: 887282427},
                 { imei: 300025010608850; shortname: "G5"; requires: "=vr2ctest"; longname: "Carey" }
             ]
         },
@@ -101,7 +104,7 @@ wavegliders:[
             ]
         },
         {
-        fleet: magi, 
+        fleet: magi,
         requires: magi,
         vehicles: [ { imei: 300025010422020, sn: 1240385023, shortname: "HoneyBadger", longname: "Honey Badger",
                     oxy:{ id:0223,
@@ -113,7 +116,7 @@ wavegliders:[
                             e: 0.036,
                             date: "02/26/2013" }
  } ]
-        },   
+        },
         {
             fleet: hawaii,
             requires: hawaii,
@@ -243,7 +246,7 @@ wavegliders:[
         }
     ]
 },
-{   institution: "LROG", 
+{   institution: "LROG",
     fleet: lrog,
     requires: lrog,
     vehicles: [
