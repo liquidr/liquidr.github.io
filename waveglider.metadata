@@ -106,7 +106,7 @@ wavegliders:[
         {
         fleet: magi,
         requires: magi,
-        vehicles: [ { imei: 300025010422020, sn: 1240385023, shortname: "HoneyBadger", longname: "Honey Badger",
+        vehicles: [ { imei: [300025010422020, "7/17/2014", 399999999999999], sn: [1240385023, "7/17/2104", 0000000000], shortname: "HoneyBadger", longname: "Honey Badger",
                     oxy:{ id:0223,
                             soc: 2.0977e-4,
                             foffset: -811.45,
@@ -115,8 +115,19 @@ wavegliders:[
                             c: -2.3278e-6,
                             e: 0.036,
                             date: "02/26/2013" }
- } ]
-        },
+                    }, 
+                    { imei: 300025010107550, sn: 974608667, shortname: "FontaineMaru", longname: "Fontaine Maru",
+                    oxy:{ id:0223,
+                            soc: 2.0977e-4,
+                            foffset: -811.45,
+                            a: -3.1820e-3,
+                            b: 1.6467e-4,
+                            c: -2.3278e-6,
+                            e: 0.036,
+                            date: "02/26/2013" }
+                    }
+                    ]
+        },   
         {
             fleet: hawaii,
             requires: hawaii,
@@ -146,51 +157,109 @@ wavegliders:[
                 { imei: 300025010508030; shortname: "Sheild" },
                 { imei: 300025010011470; shortname: "Kaimana" },
 //BEGINAUTO
-
-	{ sn: 1260095230; shortname: "Abalone"; imei: 300434060008890; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.50"; build: "Regulus-2014-02-21_16-44-27"; }
-	{ sn: 1679251267; shortname: "Aquaman"; imei: 300434060003860; avatar: "http://liquidr.github.io/avatars/aquamanAvatar.png"; host: "10.20.15.126"; }
+	{ sn: 1260095230; shortname: "Abalone"; imei: 300434060008890; avatar: "http://data.liquidr.com/icon/Abalone.png"; host: "10.20.32.25"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "Raw1.1"; }
+	{ sn: 99; shortname: "Andrew's SV3"; imei: Unknown; avatar: "http://data.liquidr.com/icon/Unnamed.png"; build: "Regulus-2014-05-07_15-27-42"; }
+	{ sn: 1679251267; shortname: "AquaMan"; imei: 300434060003860; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.90"; build: "Regulus-2014-05-02_15-37-60"; }
 	{ sn: 609054910; shortname: "AT-Ore"; imei: 300434060008890; avatar: "http://liquidr.github.io/avatars/at-ore.png"; host: "166.130.57.211"; }
-	{ sn: 648307211; shortname: "Black Widow"; imei: 300434060002740; avatar: "http://liquidr.github.io/avatars/BlackWidowAvatar.png"; host: "10.20.15.86"; build: "Regulus-2014-02-14_15-14-24"; }
-	{ sn: 1515151130; shortname: "Captain America"; imei: 300434060008760; avatar: "http://liquidr.github.io/avatars/CaptainAmericaAvatar.png"; host: "10.20.15.146"; }
-	{ sn: 653667439; shortname: "Diehard"; imei: 300434060007850; avatar: "http://liquidr.github.io/avatars/diehard.png"; host: "10.20.15.122"; }
-	{ sn: 1966300422; shortname: "Gandalf"; imei: 300434060001740; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.10.2.84"; build: "Regulus-2014-02-14_13-56-16"; }
-	{ sn: 2121578921; shortname: "Hulk"; imei: 300434060000770; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.118"; build: "Regulus-2014-02-19_07-50-30"; }
-	{ sn: 143555639; shortname: "Its-It"; imei: 300434060006710; avatar: "http://liquidr.github.io/avatars/itsIt.png"; host: "10.10.2.35"; build: "Regulus-2014-02-14_14-57-58"; }
-	{ sn: 1170870172; shortname: "JustParts"; imei: 300434060006770; avatar: "http://liquidr.github.io/avatars/blueprintRobotAvatar.png"; host: "10.10.2.116"; build: "Regulus-2014-02-19_17-37-49"; }
-	{ sn: 489567302; shortname: "Quick Silver"; imei: 300434060003740; avatar: "http://liquidr.github.io/avatars/QuickSilver.png"; host: "10.20.15.70"; build: "Regulus-2014-02-19_07-11-51"; }
-	{ sn: 327197870; shortname: "SpongeBob"; imei: 300434060005760; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.130"; }
-	{ sn: 1718503568; shortname: "SV3-001"; imei: 300434060700180; avatar: "http://liquidr.github.io/avatars/bill.png"; host: "10.20.15.134"; build: "Regulus-2014-02-17_16-14-34"; }
-	{ sn: 1145967850; shortname: "SV3-002"; imei: 300434060705170; avatar: "http://liquidr.github.io/avatars/default/SV3-002.png"; host: "10.20.15.62"; build: "Regulus-2014-02-11_18-48-11"; }
-	{ sn: 120384022; shortname: "SV3-003"; imei: 300434060701200; avatar: "http://liquidr.github.io/avatars/default/SV3-003.png"; host: "10.20.15.30"; build: "Regulus-2014-02-17_16-01-32"; }
-	{ sn: 1242283841; shortname: "SV3-004"; imei: 300434060701190; avatar: "http://liquidr.github.io/avatars/default/SV3-004.png"; host: "10.20.15.14"; build: "Regulus-2014-02-17_16-49-58"; }
-	{ sn: 216700013; shortname: "SV3-005"; imei: 300434060705180; avatar: "http://liquidr.github.io/avatars/default/SV3-005.png"; host: "10.20.15.178"; build: "Regulus-2014-02-17_15-42-39"; }
-	{ sn: 1338599832; shortname: "SV3-006"; imei: 300434060705200; avatar: "http://liquidr.github.io/avatars/default/SV3-006.png"; host: "10.20.15.182"; build: "Regulus-2014-02-17_13-38-29"; }
-	{ sn: 313016004; shortname: "SV3-007"; imei: 300434060628280; avatar: "http://liquidr.github.io/avatars/johnny_english.png"; host: "10.20.15.186"; build: "Regulus-2014-02-14_15-44-22"; }
-	{ sn: 1434915823; shortname: "SV3-008"; imei: 300434060620320; avatar: "http://liquidr.github.io/avatars/default/SV3-008.png"; host: "10.20.15.190"; build: "Regulus-2014-02-18_16-41-33"; }
-	{ sn: 409331995; shortname: "SV3-009"; imei: 300434060709190; avatar: "http://liquidr.github.io/avatars/default/SV3-009.png"; host: "10.20.15.194"; build: "Regulus-2014-02-14_13-56-16"; }
-	{ sn: 1531231814; shortname: "SV3-010"; imei: 300434060704200; avatar: "http://liquidr.github.io/avatars/default/SV3-010.png"; host: "10.20.15.66"; build: "Regulus-2014-02-14_14-26-50"; }
-	{ sn: 794595959; shortname: "SV3-011"; imei: 300434060708190; avatar: "http://liquidr.github.io/avatars/default/SV3-011.png"; host: "10.20.15.222"; }
-	{ sn: 2012811769; shortname: "SV3-012"; imei: 300434060709170; avatar: "http://liquidr.github.io/avatars/default/SV3-012.png"; host: "10.20.15.238"; build: "Regulus-2014-02-18_15-08-39"; }
-	{ sn: 987227941; shortname: "SV3-013"; imei: 300434060704180; avatar: "http://liquidr.github.io/avatars/default/SV3-013.png"; host: "10.20.15.22"; }
-	{ sn: 2109127760; shortname: "SV3-014"; imei: 300434060703170; avatar: "http://liquidr.github.io/avatars/default/SV3-014.png"; host: "10.20.15.246"; }
-	{ sn: 1083543932; shortname: "SV3-015"; imei: 300434060625320; avatar: "http://liquidr.github.io/avatars/default/SV3-015.png"; host: "10.20.15.18"; }
-	{ sn: 57960104; shortname: "SV3-016"; imei: 300434060706190; avatar: "http://liquidr.github.io/avatars/default/SV3-016.png"; host: "10.20.15.250"; }
-	{ sn: 1179859923; shortname: "SV3-017"; imei: 300434060704190; avatar: "http://liquidr.github.io/avatars/default/SV3-017.png"; host: "10.20.15.6"; }
-	{ sn: 154276095; shortname: "SV3-018"; imei: 300434060625310; avatar: "http://liquidr.github.io/avatars/default/SV3-018.png"; host: "10.20.15.26"; build: "Regulus-2014-02-17_13-34-12"; }
-	{ sn: 1276175914; shortname: "SV3-019"; imei: 300434060707170; avatar: "http://liquidr.github.io/avatars/default/SV3-019.png"; }
-	{ sn: 159468210; shortname: "SV3-020"; imei: 300434060606400; avatar: "http://liquidr.github.io/avatars/default/SV3-020.png"; host: "10.20.15.38"; build: "Regulus-2014-02-19_11-20-46"; }
-	{ sn: 250592086; shortname: "SV3-020"; imei: 300434060606400; avatar: "http://liquidr.github.io/avatars/default/SV3-020.png"; host: "10.20.15.38"; build: "Regulus-2014-02-19_11-20-46"; }
-	{ sn: 1372491905; shortname: "SV3-021"; imei: 300434060624300; avatar: "http://liquidr.github.io/avatars/default/SV3-021.png"; host: "10.20.15.42"; }
-	{ sn: 346908077; shortname: "SV3-022"; imei: 300434060018230; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.46"; }
-	{ sn: 1468807896; shortname: "SV3-023"; imei: 300434060709180; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.54"; }
-	{ sn: 443224068; shortname: "SV3-024"; imei: 300434060702200; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.74"; }
-	{ sn: 1565123887; shortname: "SV3-025"; imei: 300434060627280; avatar: "http://liquidr.github.io/avatars/default/SV3-025.png"; host: "10.20.15.6"; }
-	{ sn: 969416552; shortname: "SV3-026"; imei: 300434060707180; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.18"; build: "Regulus-2014-02-19_07-50-30"; }
-	{ sn: 2091316371; shortname: "SV3-027"; imei: 300434060629300; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; }
-	{ sn: 1065732543; shortname: "SV3-028"; imei: 300434060626300; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; }
+	{ sn: 648307211; shortname: "BlackWidow"; imei: 300434060002740; avatar: "http://liquidr.github.io/avatars/BlackWidowAvatar.png"; host: "10.20.15.86"; build: "Regulus-2014-08-19T16:26:39.951Z"; softwareChannel: "V1.0"; }
+	{ sn: 42; shortname: "Blaine"; longname: "Devin Bonnie's Linux Desktop"; imei: Unknown; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: ":8888"; }
+	{ sn: 1515151130; shortname: "Captain America"; imei: 300434060008760; avatar: "http://liquidr.github.io/avatars/CaptainAmericaAvatar.png"; host: "10.20.32.57"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1558032954; shortname: "carnitas"; imei: 399999999999999; avatar: "http://data.liquidr.com/icon/carnitas.png"; build: "Regulus-2014-07-16T00:37:26.662Z"; softwareChannel: "V1.0"; }
+	{ sn: 339817144; shortname: "chorizo"; imei: 399999999999999; avatar: "http://data.liquidr.com/icon/chorizo.png"; build: "Regulus-2014-07-16T00:37:26.662Z"; softwareChannel: "V1.0"; }
+	{ sn: 653667439; shortname: "diehard"; imei: 300434060007850; avatar: "http://liquidr.github.io/avatars/diehard.png"; host: "10.20.15.54"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 186437463; shortname: "Dragon"; imei: Unknown; avatar: "http://data.liquidr.com/icon/Dragon.png"; host: "10.20.32.60"; build: "Regulus-2014-06-24_18-34-52"; }
+	{ sn: 346908077; shortname: "EMILY"; imei: 300434060018230; avatar: "http://data.liquidr.com/icon/EMILY.png"; host: "10.20.15.46"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1172768990; shortname: "FruityPebbles"; imei: 300434060723230; avatar: "http://liquidr.github.io/avatars/FruityPebbles.png"; host: "10.20.32.23"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1966300422; shortname: "Gandalf"; imei: 300434060001740; avatar: "http://data.liquidr.com/icon/Gandalf.png"; host: "10.10.2.84"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 41; shortname: "Hey Bozo"; imei: 666; avatar: "http://data.liquidr.com/icon/HeyBozo.png"; host: "10.10.3.203:8888"; build: "Regulus-2014-06-04_11-57-48"; softwareChannel: "V1.0"; }
+	{ sn: 2121578921; shortname: "Hulk"; imei: 300434060000770; avatar: "http://data.liquidr.com/icon/Hulk.png"; host: "10.20.32.62"; build: "Regulus-2014-08-22T02:38:20.125Z"; softwareChannel: "V1.0"; }
+	{ sn: 143555639; shortname: "Its-It"; imei: 300434060006710; avatar: "http://liquidr.github.io/avatars/itsIt.png"; host: "10.10.2.35"; build: "Regulus-2014-06-28T00:27:41.429Z"; softwareChannel: "V1.0"; }
+	{ sn: 1846980927; shortname: "jalapeno"; imei: 399999999999999; avatar: "http://data.liquidr.com/icon/jalapeno.png"; build: "Regulus-2014-07-16T00:37:26.662Z"; softwareChannel: "V1.0"; }
+	{ sn: 1170870172; shortname: "JustParts"; imei: 300434060006770; avatar: "http://liquidr.github.io/avatars/blueprintRobotAvatar.png"; host: "10.20.15.102"; build: "Regulus-2014-08-18T17:30:45.750Z"; softwareChannel: "Raw1.1"; }
+	{ sn: 256256; shortname: "MikeUbuntu"; imei: 314159265358979; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-04-02_14-46-34"; }
+	{ sn: 1964; shortname: "Mortimer"; longname: "Devin's Macbook Pro"; imei: 123456789; avatar: "http://data.liquidr.com/icon/Mortimer.png"; host: "10.20.25.19:8888"; build: "Regulus-2014-07-25T18:57:15.909Z"; softwareChannel: "V1.0"; }
+	{ sn: 12345678; shortname: "PBW Regulus VM"; longname: "PBW Regulus Virtual Machine"; imei: 123456789012345; avatar: "/home/developer/AFT-cropped-33.jpg"; host: "63.238.229.66"; }
+	{ sn: 489567302; shortname: "Quick Silver"; imei: 300434060728230; avatar: "http://liquidr.github.io/avatars/QuickSilver.png"; host: "10.20.15.70"; build: "Regulus-2014-08-18T20:24:31.182Z"; softwareChannel: "V1.0"; }
+	{ sn: 123; shortname: "Roland"; longname: "Devin Bonnie's Linux Desktop"; imei: 123; avatar: "http://data.liquidr.com/icon/Roland.png"; build: "Regulus-2014-06-17_16-47-50"; softwareChannel: "V1.0"; }
+	{ sn: 912184749; shortname: "Roland"; longname: "Devin Bonnie's Linux Desktop"; imei: 123; avatar: "http://data.liquidr.com/icon/Roland.png"; build: "Regulus-2014-07-01T17:59:11.338Z"; softwareChannel: "V1.0"; }
+	{ sn: 1434915823; shortname: "SAF-007"; longname: "SV3-008"; imei: 300434060620320; avatar: "http://liquidr.github.io/avatars/default/SV3-008.png"; host: "10.20.15.126"; build: "Regulus-2014-02-18_16-41-33"; }
+	{ sn: 908723339; shortname: "Sea-Snails"; imei: 300434060007760; avatar: "http://data.liquidr.com/icon/Sea-Snails.png"; host: "10.20.15.90"; build: "Regulus-2014-08-12T18:57:50.247Z"; softwareChannel: "V1.0"; }
+	{ sn: 1234; shortname: "sim1"; imei: 1234; avatar: "http://data.liquidr.com/icon/sim1.png"; build: "Regulus-2014-07-07T20:26:44.465Z"; softwareChannel: "V1.0"; }
+	{ sn: 1393764704; shortname: "sim1"; longname: "test-provision"; imei: 1234; avatar: "http://data.liquidr.com/icon/sim1.png"; build: "Regulus-2014-07-14T20:05:45.685Z"; softwareChannel: "V1.0"; }
+	{ sn: 1461716963; shortname: "sim1"; imei: 1234; avatar: "http://data.liquidr.com/icon/sim1.png"; build: "Regulus-2014-08-01T18:24:06.407Z"; softwareChannel: "V1.0"; }
+	{ sn: 147185162; shortname: "sim1"; longname: "test-provision"; imei: 1234; avatar: "http://data.liquidr.com/icon/sim1.png"; build: "Regulus-2014-07-14T22:36:07.312Z"; softwareChannel: "V1.0"; }
+	{ sn: 532449126; shortname: "sim2"; imei: Unknown; avatar: "http://data.liquidr.com/icon/sim2.png"; build: "Regulus-2014-08-01T18:24:06.407Z"; softwareChannel: "V1.0"; }
+	{ sn: 1654348945; shortname: "sim3"; imei: Unknown; avatar: "http://data.liquidr.com/icon/sim3.png"; build: "Regulus-2014-08-01T18:24:06.407Z"; softwareChannel: "V1.0"; }
+	{ sn: 628765117; shortname: "sim4"; imei: Unknown; avatar: "http://data.liquidr.com/icon/sim4.png"; build: "Regulus-2014-08-01T18:24:06.407Z"; softwareChannel: "V1.0"; }
+	{ sn: 1750664936; shortname: "sim5"; imei: Unknown; avatar: "http://data.liquidr.com/icon/sim5.png"; build: "Regulus-2014-08-01T18:24:06.407Z"; softwareChannel: "V1.0"; }
+	{ sn: 159468210; shortname: "SLOTH"; imei: 300434060606400; avatar: "http://liquidr.github.io/avatars/GornAvatar.png"; host: "10.20.15.38"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 327197870; shortname: "SpongeBob"; imei: 300434060005760; avatar: "http://liquidr.github.io/avatars/SpongebobAvatar.png"; host: "10.20.32.21"; build: "Regulus-2014-08-14T23:45:02.140Z"; softwareChannel: "V1.0"; }
+	{ sn: 1718503568; shortname: "SV3-001"; imei: 300434060700180; avatar: "http://data.liquidr.com/icon/SV3-001.png"; host: "10.20.15.34"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1145967850; shortname: "SV3-002"; imei: 300434060705170; avatar: "http://data.liquidr.com/icon/SV3-002.png"; host: "10.20.15.22"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 120384022; shortname: "SV3-003"; imei: 300434060701200; avatar: "http://data.liquidr.com/icon/SV3-003.png"; host: "10.20.15.30"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 142283841; shortname: "Sv3-004"; imei: 300434060701190; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-03-07_07-52-35"; }
+	{ sn: 1242283841; shortname: "SV3-004"; imei: 300434060701190; avatar: "http://data.liquidr.com/icon/SV3-004.png"; host: "10.20.15.14"; build: "Regulus-2014-05-02_15-37-60"; }
+	{ sn: 216700013; shortname: "SV3-005"; imei: 300434060705180; avatar: "http://data.liquidr.com/icon/SV3-005.png"; host: "10.20.15.178"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1338599832; shortname: "SV3-006"; imei: 300434060705200; avatar: "http://data.liquidr.com/icon/SV3-006.png"; host: "10.20.15.182"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 313016004; shortname: "SV3-007"; imei: 300434060628280; avatar: "http://data.liquidr.com/icon/SV3-007.png"; host: "72.235.58.163"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 409331995; shortname: "SV3-009"; imei: 300434060709190; avatar: "http://data.liquidr.com/icon/SV3-009.png"; host: "10.20.15.194"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1531231814; shortname: "SV3-010"; imei: 300434060704200; avatar: "http://data.liquidr.com/icon/SV3-010.png"; host: "10.20.15.18"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 2012811769; shortname: "SV3-012"; imei: 300434060709170; avatar: "http://data.liquidr.com/icon/SV3-012.png"; host: "10.20.32.38"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 987227941; shortname: "SV3-013"; imei: 300434060704180; avatar: "http://data.liquidr.com/icon/SV3-013.png"; host: "10.20.15.22"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 2109127760; shortname: "SV3-014"; imei: 300434060703170; avatar: "http://data.liquidr.com/icon/SV3-014.png"; host: "10.20.15.246"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1083543932; shortname: "SV3-015"; imei: 300434060625320; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.6"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 57960104; shortname: "SV3-016"; imei: 300434060706190; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.250"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1179859923; shortname: "SV3-017"; imei: 300434060704190; avatar: "http://data.liquidr.com/icon/SV3-017.png"; host: "10.20.15.14"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 154276095; shortname: "SV3-018"; imei: 300434060625310; avatar: "http://data.liquidr.com/icon/SV3-018.png"; host: "10.20.15.26"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1276175914; shortname: "SV3-019"; imei: 300434060707170; avatar: "http://data.liquidr.com/icon/SV3-019.png"; host: "10.20.15.58"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 250592086; shortname: "SV3-020"; imei: 300434060606400; avatar: "http://liquidr.github.io/avatars/default/SV3-020.png"; host: "10.20.15.38"; }
+	{ sn: 1372491905; shortname: "SV3-021"; imei: 300434060624300; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.42"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1468807896; shortname: "SV3-023"; imei: 300434060709180; avatar: "http://data.liquidr.com/icon/SV3-023.png"; host: "10.20.15.54"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 443224068; shortname: "SV3-024"; imei: 300434060702200; avatar: "http://data.liquidr.com/icon/SV3-024.png"; host: "10.20.15.74"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1565123887; shortname: "SV3-025"; imei: 300434060627280; avatar: "http://data.liquidr.com/icon/SV3-025.png"; host: "10.20.15.30"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 969416552; shortname: "SV3-026"; imei: 300434060707180; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.18"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 2091316371; shortname: "SV3-027"; imei: 300434060629300; avatar: "http://data.liquidr.com/icon/SV3-027.png"; host: "10.10.2.85"; build: "Regulus-2014-06-04_11-59-18"; softwareChannel: "V1.0"; }
+	{ sn: 1065732543; shortname: "SV3-028"; imei: 300434060626300; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.94"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1167408762; shortname: "SV3-029"; imei: 300434060620290; avatar: "http://data.liquidr.com/icon/SV3-029.png"; host: "10.20.15.230"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 141824934; shortname: "SV3-030"; imei: 300434060722240; avatar: "http://data.liquidr.com/icon/SV3-030.png"; host: "10.20.15.118"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1263724753; shortname: "SV3-031"; imei: 300434060629100; avatar: "http://data.liquidr.com/icon/SV3-031.png"; host: "10.20.15.106"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 238140925; shortname: "SV3-032"; imei: 300434060327690; avatar: "http://data.liquidr.com/icon/SV3-032.png"; host: "10.20.15.214"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1360040744; shortname: "SV3-033"; imei: 300434060008850; avatar: "http://data.liquidr.com/icon/SV3-033.png"; host: "10.20.32.26"; build: "Regulus-2014-05-13_10-57-30"; }
+	{ sn: 4361; shortname: "SV3-033"; imei: 300434060008850; avatar: "http://data.liquidr.com/icon/SV3-033.png"; host: "10.20.15.218"; build: "Regulus-2014-05-13_10-57-30"; }
+	{ sn: 16977098; shortname: "SV3-034"; imei: 300434060000860; avatar: "http://data.liquidr.com/icon/SV3-034.png"; host: "10.20.15.78"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1138876917; shortname: "SV3-035"; imei: 300434060621290; avatar: "http://data.liquidr.com/icon/SV3-035.png"; host: "10.20.15.142"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 113293089; shortname: "SV3-036"; imei: 300434060627310; avatar: "http://data.liquidr.com/icon/SV3-036.png"; host: "10.20.15.138"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1235192908; shortname: "SV3-037"; imei: 300434060623970; avatar: "http://data.liquidr.com/icon/SV3-037.png"; host: "10.20.15.146"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 209609080; shortname: "SV3-038"; imei: 300434060625300; avatar: "http://data.liquidr.com/icon/SV3-038.png"; host: "10.20.15.150"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 980137008; shortname: "SV3-039"; imei: 300434060628310; avatar: "http://data.liquidr.com/icon/SV3-039.png"; host: "10.20.15.158"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 2102036827; shortname: "SV3-040"; imei: 300434060622320; avatar: "http://data.liquidr.com/icon/SV3-040.png"; host: "10.20.15.170"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1076452999; shortname: "SV3-041"; imei: 300434060627290; avatar: "http://data.liquidr.com/icon/SV3-041.png"; host: "10.20.15.174"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1591925027; shortname: "SV3-042"; imei: 300434060028740; avatar: "http://data.liquidr.com/icon/SV3-042.png"; host: "10.20.15.202"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1688241018; shortname: "SV3-043"; imei: 300434060022730; avatar: "http://data.liquidr.com/icon/SV3-043.png"; host: "10.20.15.206"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 662657190; shortname: "SV3-044"; imei: 300434060026700; avatar: "http://data.liquidr.com/icon/SV3-044.png"; host: "10.20.15.210"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1784557009; shortname: "SV3-045"; imei: 300434060022740; avatar: "http://data.liquidr.com/icon/SV3-045.png"; host: "10.20.15.222"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 758973181; shortname: "SV3-046"; imei: 300434060027730; avatar: "http://data.liquidr.com/icon/SV3-046.png"; host: "10.20.15.226"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 50869171; shortname: "SV3-047"; imei: 300434060720250; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.234"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1914765073; shortname: "SV3-048"; imei: 300434060025720; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.26"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 889181245; shortname: "SV3-049"; imei: 300434060020740; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.6"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 2011081064; shortname: "SV3-050"; imei: 300434060021740; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 985497236; shortname: "SV3-051"; imei: 300434060029730; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.10"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 2107397055; shortname: "SV3-052"; imei: 300434060026740; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 707269719; shortname: "SV3-054"; imei: 300434060020730; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 2112757283; shortname: "SV3-054"; imei: 300434060020730; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 803585710; shortname: "SV3-056"; imei: 300434060029680; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1087173455; shortname: "SV3-056"; imei: 300434060029680; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 157905618; shortname: "SV3-058"; imei: 300434060028700; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 2021801520; shortname: "SV3-059"; imei: 300434060025730; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1279805437; shortname: "SV3-059"; imei: 300434060025730; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 254221609; shortname: "SV3-060"; imei: 300434060029720; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1376121428; shortname: "SV3-061"; imei: 300434060025700; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 996217692; shortname: "SV3-061"; imei: 300434060025700; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
 	{ sn: 1215752191; shortname: "SV3fleet1"; imei: 300434060700180; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; }
-	{ sn: 2059155003; shortname: "Thor"; longname: "Thor the Mighty"; imei: 300434060007860; avatar: "http://liquidr.github.io/avatars/Thor.png"; host: "10.10.15.58"; build: "Regulus-2014-02-13_14-43-54"; }
-	{ sn: 1673891039; shortname: "War Machine"; imei: 300434060009720; avatar: "http://liquidr.github.io/avatars/WarMachineAvatar.png"; host: "10.20.15.98"; build: "Regulus-2014-02-14_11-38-19"; }
+	{ sn: 2059155003; shortname: "Thor"; longname: "Thor the Mighty"; imei: 300434060007860; avatar: "http://data.liquidr.com/icon/Thor.png"; host: "10.20.32.61"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 794595959; shortname: "Tiny"; imei: 300434060708190; avatar: "http://data.liquidr.com/icon/Tiny.png"; host: "10.20.15.122"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1; shortname: "viet vehicle"; imei: Unknown; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; }
+	{ sn: 1673891039; shortname: "WarMachine"; imei: 300434060009720; avatar: "http://data.liquidr.com/icon/WarMachine.png"; host: "10.20.15.98"; build: "Regulus-2014-05-02_15-37-60"; }
 //ENDAUTO
             ]
         },
@@ -269,6 +338,19 @@ wavegliders:[
     fleet: mbari,
     requires: mbari,
     vehicles:[
+        { sn: 794595959; 
+        shortname: "Tiny"; 
+        imei: 300434060708190;
+        oxy: {id: 0212,
+            soc: 2.9681e-4,
+            foffset: -787.66,
+            a: -2.7123e-3,
+            b:  2.0315e-4,
+            c: -3.8309e-6,
+            e: 0.036,
+            date: "05/21/2014"
+        }
+        },
         {   imei: 300034013529390;
             sn: 878292676;
             shortname: "MBARI OA"
@@ -414,7 +496,14 @@ wavegliders:[
         { shortname: "LROG23"; imei: 300234011673000; sn: 1420565844 },
         { shortname: "LROG29"; imei: 300234011480870; sn: 1103086026 },
         { shortname: "LROG32"; imei: 300234011485880; sn: 1392033999 },
-        { shortname: "LROG33"; imei: 300234011577990; sn: 139926116 }
+        { shortname: "LROG33"; imei: 300234011577990; sn: 139926116 },
+        { shortname: "LROG20"; imei: 300234011341060; sn: 1415205616 },
+        { shortname: "LROG24"; imei: 300234011344070; sn: 485937779 },
+        { shortname: "SV3-013"; imei: 300434060704180; sn: 987227941 },
+        { shortname: "SV3-024"; imei: 300434060702200; sn: 443224068 },
+        { shortname: "SV3-035"; imei: 300434060621290; sn: 1138876917 },
+        { shortname: "SV3-037"; imei: 300434060623970; sn: 1235192908 },
+        { shortname: "SV3-039"; imei: 300434060628310; sn: 980137008 },
     ]
 }
 ],
