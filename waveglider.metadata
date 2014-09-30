@@ -132,6 +132,10 @@ wavegliders:[
             fleet: hawaii,
             requires: hawaii,
             vehicles: [
+                {   imei: 300034013906770,
+                    shortname: "MOBY",
+                    sn: 237
+                },
                 {   imei: 300234010416160,
                     shortname: "R1"
                 },

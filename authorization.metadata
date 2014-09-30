@@ -128,6 +128,9 @@
         { token: ndg;
             authorized: [ {vehicle: "A'a" } ]
         },
+        { token: pacioos;
+            authorized: [ {vehicle: "MOBY" } ]
+        },
         { token: jcg;
             authorized: [ {vehicle: Miduki } ]
         },
