@@ -115,7 +115,7 @@ wavegliders:[
                             c: -2.3278e-6,
                             e: 0.036,
                             date: "02/26/2013" }
-                    }, 
+                    },
                     { imei: 300025010107550, sn: 974608667, shortname: "FontaineMaru", longname: "Fontaine Maru",
                     oxy:{ id:0223,
                             soc: 2.0977e-4,
@@ -127,7 +127,7 @@ wavegliders:[
                             date: "02/26/2013" }
                     }
                     ]
-        },   
+        },
         {
             fleet: hawaii,
             requires: hawaii,
@@ -217,9 +217,10 @@ wavegliders:[
 	{ sn: 1468807896; shortname: "SV3-023"; imei: 300434060709180; avatar: "http://data.liquidr.com/icon/SV3-023.png"; host: "10.20.15.54"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
 	{ sn: 443224068; shortname: "SV3-024"; imei: 300434060702200; avatar: "http://data.liquidr.com/icon/SV3-024.png"; host: "10.20.15.74"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
 	{ sn: 1565123887; shortname: "SV3-025"; imei: 300434060627280; avatar: "http://data.liquidr.com/icon/SV3-025.png"; host: "10.20.15.30"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
-	{ sn: 969416552; shortname: "SV3-026"; imei: 300434060707180; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.18"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 969416552; shortname: "Waimea"; imei: 300434060707180; avatar: "http://data.liquidr.com/icon/Waimea.png"; host: "10.20.15.18"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
 	{ sn: 2091316371; shortname: "SV3-027"; imei: 300434060629300; avatar: "http://data.liquidr.com/icon/SV3-027.png"; host: "10.10.2.85"; build: "Regulus-2014-06-04_11-59-18"; softwareChannel: "V1.0"; }
-	{ sn: 1065732543; shortname: "SV3-028"; imei: 300434060626300; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.15.94"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1065732543; shortname: "Lyra"; imei: 300434060626300; avatar: "http://liquidr.github.io/avatars/default/LYRA.png"; host: "10.20.15.94"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 1755857051; shortname: "NOCL"; imei: 300234010418200; avatar: "http://liquidr.github.io/avatars/default/NOCL.png"; host: "10.20.15.94"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
 	{ sn: 1167408762; shortname: "SV3-029"; imei: 300434060620290; avatar: "http://data.liquidr.com/icon/SV3-029.png"; host: "10.20.15.230"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
 	{ sn: 141824934; shortname: "SV3-030"; imei: 300434060722240; avatar: "http://data.liquidr.com/icon/SV3-030.png"; host: "10.20.15.118"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
 	{ sn: 1263724753; shortname: "SV3-031"; imei: 300434060629100; avatar: "http://data.liquidr.com/icon/SV3-031.png"; host: "10.20.15.106"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
@@ -338,8 +339,8 @@ wavegliders:[
     fleet: mbari,
     requires: mbari,
     vehicles:[
-        { sn: 794595959; 
-        shortname: "Tiny"; 
+        { sn: 794595959;
+        shortname: "Tiny";
         imei: 300434060708190;
         oxy: {id: 0212,
             soc: 2.9681e-4,
