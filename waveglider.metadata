@@ -133,6 +133,7 @@ wavegliders:[
             requires: hawaii,
             vehicles: [
                 {   imei: 300034013906770,
+                    rawid: "0A141131ED000000-00000000A5250000",
                     shortname: "MOBY",
                     sn: 237
                 },
