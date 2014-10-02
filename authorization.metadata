@@ -130,7 +130,7 @@
             authorized: [ {vehicle: "A'a" } ]
         },
         { token: pacioostoken;
-            authorized: [ {vehicle: "MOBY" } ]
+            authorized: [ {vehicle: MOBY, start: "9/19/2014" } ]
         },
         { token: jcg;
             authorized: [ {vehicle: Miduki } ]
