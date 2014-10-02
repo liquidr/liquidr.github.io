@@ -129,7 +129,7 @@
         { token: ndg;
             authorized: [ {vehicle: "A'a" } ]
         },
-        { token: pacioos;
+        { token: pacioostoken;
             authorized: [ {vehicle: "MOBY" } ]
         },
         { token: jcg;
