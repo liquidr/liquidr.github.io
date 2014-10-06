@@ -132,7 +132,7 @@ wavegliders:[
             fleet: hawaii,
             requires: hawaii,
             vehicles: [
-                {   imei: 300034013906770,
+                {   imei: [399999999999999, "9/19/2014", 300034013906770],
                     rawid: "0A141131ED000000-00000000A5250000",
                     shortname: "MOBY",
                     sn: 237
@@ -420,7 +420,7 @@ wavegliders:[
     fleet: WHOI;
     requires: whoi;
     vehicles: [
-        {   imei: 300034013906770,
+        {   imei: [300034013906770, "9/19/2014", 399999999999999],
             rawid: "0A141131ED000000-00000000A5250000",
             sn: 237,
             shortname: "WHOI-ASL2",
