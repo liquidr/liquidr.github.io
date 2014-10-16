@@ -137,6 +137,11 @@ wavegliders:[
                     shortname: "MOBY",
                     sn: 237
                 },
+                {
+                    shortname: "NC2",
+                    imei: 300025010227190,
+                    sn: 1500801151
+                }
                 {   imei: 300234010416160,
                     shortname: "R1"
                 },
