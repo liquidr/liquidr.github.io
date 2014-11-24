@@ -34,7 +34,9 @@
             token: testtoken;
             authorized: [ {vehicle: "A'a"; start: "10/01/2013"; end: "10/02/2013" },
                           {vehicle: "A'a"; start: "10/04/2013"; end: "10/05/2013" },
-                          {vehicle: "A'a"; start: "10/01/2013"; sensor: "Weather"}
+                          {vehicle: "A'a"; start: "10/01/2013"; sensor: "Weather"},
+                          {vehicle: "MOBY"},
+                          {vehicle: NC2}
              ]
         },
         {   token: cmre;
@@ -127,6 +129,9 @@
         }, 
         { token: ndg;
             authorized: [ {vehicle: "A'a" } ]
+        },
+        { token: pacioostoken;
+            authorized: [ {vehicle: MOBY, start: "9/19/2014" }, {vehicle: NC2, start: "9/12/2014"} ]
         },
         { token: jcg;
             authorized: [ {vehicle: Miduki } ]
