@@ -1,5 +1,19 @@
 { // The time & org-based authorization file for Fetch
     tokens:[
+{   token: eos;
+    authorized: [ {vehicle: "SV3-053" } ]
+},
+{   token: leidos;
+    authorized: [ { vehicle: "SV3-021"; start: "08/05/2014" },
+    		  { vehicle: "SV3-025"; start: "08/06/2015" },
+    		  { vehicle: "SV3-048"}
+    		]
+},
+{   token: ngc;
+    authorized: [ { vehicle: "SV3-060"; start: "12/17/2014" },
+    		  { vehicle: "SV3-061"; start: "12/12/2014" }
+		]
+},
 {   token: lrog;
     authorized: [
         {   token: wgtotaluruguay; 
