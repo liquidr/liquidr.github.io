@@ -260,12 +260,9 @@ wavegliders:[
 	{ sn: 2112757283; shortname: "SV3-054"; imei: 300434060020730; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
 	{ sn: 1829169538; shortname: "SV3-055"; imei: 300434060022690; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.32.70"; build: "Regulus-2014-06-05_10-02-46"; systemBuild: "false"; softwareChannel: "V1.0"; }
 	{ sn: 803585710; shortname: "SV3-056"; imei: 300434060029680; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.32.71"; build: "Regulus-2014-06-05_10-02-46"; systemBuild: "false"; softwareChannel: "V1.0"; }
-	{ sn: 1087173455; shortname: "SV3-056"; imei: 300434060029680; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
 	{ sn: 1925485529; shortname: "SV3-057"; imei: 300434060028720; avatar: "http://data.liquidr.com/icon/SV3-057.png"; host: "10.20.32.72"; regulusVersion: "1.0.1"; buildNumber: "29"; build: "Regulus-2014-11-11T01:04:14.333Z"; systemBuild: "true"; softwareChannel: "V1.0"; }
-	{ sn: 157905618; shortname: "SV3-058"; imei: 300434060028700; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
 	{ sn: 899901701; shortname: "SV3-058"; imei: 300434060028700; avatar: "http://data.liquidr.com/icon/SV3-058.png"; host: "10.20.32.73"; regulusVersion: "1.0.1"; buildNumber: "29"; build: "Regulus-2014-11-11T01:04:14.333Z"; systemBuild: "true"; softwareChannel: "V1.0"; }
-	{ sn: 2021801520; shortname: "SV3-059"; imei: 300434060009720; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.32.74"; build: "Regulus-2014-06-05_10-02-46"; systemBuild: "false"; softwareChannel: "V1.0"; }
-	{ sn: 1279805437; shortname: "SV3-059"; imei: 300434060025730; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
+	{ sn: 2021801520; shortname: "SV3-059"; imei: 300434060025730; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
 	{ sn: 996217692; shortname: "SV3-060"; imei: 300434060029720; avatar: "http://data.liquidr.com/icon/SV3-060.png"; host: "10.20.32.75"; build: "Regulus-2014-10-21T17:53:44.210Z"; softwareChannel: "V1.0"; }
 	{ sn: 2118117511; shortname: "SV3-061"; imei: 300434060025700; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; host: "10.20.32.76"; build: "Regulus-2014-06-05_10-02-46"; softwareChannel: "V1.0"; }
 	{ sn: 1215752191; shortname: "SV3fleet1"; imei: 300434060700180; avatar: "http://liquidr.github.io/avatars/DefaultAvatar.png"; }
