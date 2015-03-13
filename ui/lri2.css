@@ -16,7 +16,7 @@ body-v1 { /*background: #eee; */padding:0; margin:0; border: 0;
         background-origin: padding-box;
        }
 }
-body { background: #fafafa; padding:0; margin:0; border: 0;
+body { background: white; padding:0; margin:0; border: 0;
        font-family: sans-serif; word-wrap: break-word;
 }
 div.navBadge {
@@ -28,7 +28,7 @@ div.navBadge table {
 }
 table.nowrap td { white-space: nowrap }
 @media print {
-td.body { background: white; border: none; border-radius: 0; }
+td.body { border-top: thin solid black; border-radius: 0; }
 body { font-family: sans-serif; }
 .nav { display: none; }
 .footer { display: none; }
