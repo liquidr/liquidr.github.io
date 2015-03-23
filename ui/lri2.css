@@ -4,9 +4,10 @@ h3 { font-family: sans-serif; font-size: 110%; }
 div.subtitle { padding-left: 2em; font: italic normal 50% serif; }
 
 @media screen {
-.bodybox { background-color: white; border-top: thin solid black; padding: 25px; margin: 0px;
-    width: 100%; height:auto; }
-body-v1 { /*background: #eee; */padding:0; margin:0; border: 0;
+    .bodybox {
+        background-color: white; border-top: thin solid black; padding: 25px; margin: 0px;
+        width: 100%; height:auto; }
+    body-v1 { /*background: #eee; */padding:0; margin:0; border: 0;
        font-family:  sans-serif;background-attachment: scroll;
         background-color: #EEF;
         background-image: -webkit-linear-gradient(left,
@@ -14,7 +15,7 @@ body-v1 { /*background: #eee; */padding:0; margin:0; border: 0;
             rgb(212, 227, 245) 50%,
             rgb(136, 178, 223) 100%);
         background-origin: padding-box;
-       }
+    }
 }
 body { background: white; padding:0; margin:0; border: 0;
        font-family: sans-serif; word-wrap: break-word;
@@ -64,7 +65,7 @@ td.divider { }
 @media (max-width:1024px) {
    body { font-size: 70%; }
    .bodybox { background-color: white; border-radius: 8px; padding: 10px; margin:0;
-    width:auto; height:auto; }
+        width:auto; height:auto; }
     div.navBadge {
         position:fixed; z-index: 99; left:5px; bottom:5px
     }
