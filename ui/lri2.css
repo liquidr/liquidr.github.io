@@ -5,9 +5,9 @@ div.subtitle { padding-left: 2em; font: italic normal 50% serif; }
 
 @media screen {
     .bodybox {
-        background-color: white; border-top: thin solid black; padding: 25px; margin: 0px;
+        border:0; padding: 25px; margin: 0px;
         width: 100%; height:auto; }
-    body-v1 { /*background: #eee; */padding:0; margin:0; border: 0;
+    body-v1 { padding:0; margin:0; border: 0;
        font-family:  sans-serif;background-attachment: scroll;
         background-color: #EEF;
         background-image: -webkit-linear-gradient(left,
@@ -64,7 +64,7 @@ td.divider { }
 .units { font-family: serif; font-size: 70%; font-style:italic; }
 @media (max-width:1024px) {
    body { font-size: 70%; }
-   .bodybox { background-color: white; border-radius: 8px; padding: 10px; margin:0;
+   .bodybox { padding: 10px; margin:0;
         width:auto; height:auto; }
     div.navBadge {
         position:fixed; z-index: 99; left:5px; bottom:5px
