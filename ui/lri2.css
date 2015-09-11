@@ -29,7 +29,7 @@ div.navBadge table {
 }
 table.nowrap td { white-space: nowrap }
 @media print {
-td.body { border-top: thin solid black; }
+td.body {  }
 body { font-family: sans-serif; }
 .nav { display: none; }
 .footer { display: none; }
@@ -55,7 +55,7 @@ input.fullwidth { width:100%; }
 input[type=text] { border: thin solid black; background: #eee; border-radius: 4px; }
 td.nav { position: relative; top: 30px; }
 td.timevalue { white-space: nowrap; }
-td.title { vertical-align: middle; padding: 0px; margin: 25px; }
+td.title { vertical-align: middle; padding: 0px; margin: 25px; background: #EEE; border-bottom: thin solid #AAA; }
 td.title h1 { color: #000; padding-left: 30px; margin:0; }
 td.title h2 { color: #444; padding-left: 30px;}
 td.title h2 { color: #888; padding-left: 30px;}
