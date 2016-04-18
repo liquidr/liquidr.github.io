@@ -44,3 +44,6 @@ td.divider { }
 @media (max-width:1024px) {
 	body { font-size: 70%; }
 }
+.ui-menu {
+	z-index: 9999;
+}

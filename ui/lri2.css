@@ -71,3 +71,7 @@ td.divider { }
     }
     div.navBadge a img { width:60px; }
 }
+.ui-menu {
+        z-index: 9999;
+}
+
