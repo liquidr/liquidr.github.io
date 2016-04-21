@@ -40,7 +40,6 @@ body { font-family: sans-serif; }
 /*.newPage { page-break-before: always; } */
 }
 #menubar { background: #0082b5; margin-left: 2em; margin-right: 2em; color: white}
-#menubar:hover { background: #1092c7; }
 
 div.bigChart { width: 6in; display: block; height: 4in; background: white;
                border-radius: 17px; margin-top: 20px; padding: 5px; }
@@ -64,7 +63,8 @@ td.title h1 { color: #000; padding-left: 30px; margin:0; }
 td.title h2 { color: #444; padding-left: 30px;}
 td.title h2 { color: #888; padding-left: 30px;}
 td.divider { }
-#ui-id-1 span { color: white; }
+#ui-id-1 { color: white; }
+#ui-id-1:hover { background: #1092c7; }
 .tight { padding:0; border: 0; margin: 0; }
 .units { font-family: serif; font-size: 70%; font-style:italic; }
 @media (max-width:1024px) {
