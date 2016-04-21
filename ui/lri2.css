@@ -39,7 +39,7 @@ body { font-family: sans-serif; }
 .skipPrint { display: none; }
 /*.newPage { page-break-before: always; } */
 }
-#menubar { background: transparent; margin-left: 2em; margin-right: 2em;}
+#menubar { background: #f79-1e; margin-left: 2em; margin-right: 2em;}
 
 div.bigChart { width: 6in; display: block; height: 4in; background: white;
                border-radius: 17px; margin-top: 20px; padding: 5px; }
@@ -58,7 +58,7 @@ input.fullwidth { width:100%; }
 input[type=text] { border: thin solid black; background: #eee; border-radius: 4px; }
 td.nav { position: relative; top: 30px; }
 td.timevalue { white-space: nowrap; }
-td.title { vertical-align: middle; padding: 0px; margin: 25px; background: #EEE; border-bottom: 2px solid #ddd; }
+td.title { vertical-align: middle; padding: 0px; margin: 25px; background: #ffca38; border-bottom: 2px solid #0082b5; }
 td.title h1 { color: #000; padding-left: 30px; margin:0; }
 td.title h2 { color: #444; padding-left: 30px;}
 td.title h2 { color: #888; padding-left: 30px;}
