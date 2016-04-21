@@ -27,7 +27,7 @@ div.navBadge {
 div.navBadge table {
     padding: 10px; width: 100%;
 }
-table.main tr:first-child {
+table.main > tr:first-child {
     height: 4em;
 }
 table.nowrap td { white-space: nowrap }
