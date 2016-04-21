@@ -39,7 +39,7 @@ body { font-family: sans-serif; }
 .skipPrint { display: none; }
 /*.newPage { page-break-before: always; } */
 }
-#menubar { background: transparent; }
+#menubar { background: transparent; margin-left: 2em; margin-right: 2em;}
 
 div.bigChart { width: 6in; display: block; height: 4in; background: white;
                border-radius: 17px; margin-top: 20px; padding: 5px; }
@@ -77,4 +77,5 @@ td.divider { }
 .ui-menu {
         z-index: 9999;
 }
+li.ui-menu-item a span.ui-menu-icon { display: none; }
 
