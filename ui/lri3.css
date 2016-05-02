@@ -1,0 +1,123 @@
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,400,400italic);
+
+h1 { font-family: sans-serif; font-size: 250%; color: #448; }
+h2 { font-family: sans-serif; font-size: 150%; color: #006; }
+h3 { font-family: sans-serif; font-size: 110%; }
+div.subtitle { padding-left: 2em; font: italic normal 50% serif; }
+
+@media screen {
+    .bodybox {
+        border:0; padding: 25px; margin: 0px;
+        width: 100%; height:auto; }
+    body-v1 { padding:0; margin:0; border: 0;
+       font-family:  sans-serif;background-attachment: scroll;
+        background-color: #EEF;
+        background-image: -webkit-linear-gradient(left,
+            rgb(136, 178, 223) 0%,
+            rgb(212, 227, 245) 50%,
+            rgb(136, 178, 223) 100%);
+        background-origin: padding-box;
+    }
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-right: 1em;
+    border-bottom: 4px solid transparent;
+}
+.dropdown:hover {
+    border-bottom: 4px solid #c8d73f;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top:calc(100% + 4px);
+    right:0%;
+    background-color: rgba(0,0,0,1);
+    color: white;
+    min-width: 160px;
+    box-shadow: 3px 7px 22px 2px rgba(0,0,0,0.59);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+body { background: white; padding:0; margin:0; border: 0;
+       font-family: Source Sans Pro, sans-serif; font-size: 12pt; word-wrap: break-word;
+}
+b { font-weight: 600; }
+div.navBadge {
+    position:fixed; z-index: 99; left:0px; bottom:0px; margin: 0; padding: 0px; width: 100%;
+    pointer-events: none;
+}
+div.navBadge table {
+    padding: 10px; width: 100%;
+}
+table.main > tbody > tr:first-child {
+    height: 4em;
+}
+table.nowrap td { white-space: nowrap }
+@media print {
+td.body {  }
+body { font-family: sans-serif; }
+.nav { display: none; }
+.footer { display: none; }
+.skipPrint { display: none; }
+/*.newPage { page-break-before: always; } */
+}
+#menubar { background: #0082b5; margin-left: 2em; margin-right: 2em; color: white}
+
+div.bigChart { width: 6in; display: block; height: 4in; background: white;
+               border-radius: 17px; margin-top: 20px; padding: 5px; }
+a.button { display: inline-block; text-decoration: none;
+           padding: 2px; background: #ddd; color:#333;
+           border: thin solid #00A; border-radius: 5px; }
+a.button:hover { background:#eee }
+a.nav { display: block; width: 200px; text-decoration: none; font-family: sans-serif;
+        color:#333; padding: 4px 12px 4px 12px; margin: 3px; border-radius: 7px;  }
+td.bottomNav a.nav { display: inline-block; }
+a.nav:hover { background:#eee }
+table.login { padding: 30px ;  background-color: white;
+              border-radius: 8px; padding: 25px; margin:30px; }
+table.main { border-spacing: 0; border:0; padding:0; margin: 0; width: 100%; }
+input.fullwidth { width:100%; }
+input[type=text] { border: thin solid black; background: #eee; border-radius: 4px; }
+td.nav { position: relative; top: 30px; }
+td.timevalue { white-space: nowrap; }
+div.title { vertical-align: middle; padding: 5pt 1em; margin: 0; color:white;
+    width: 100%; height: 60pt; font-size: 30pt; position:fixed;
+    background: black url("../images/LRILogo-textured-200.png") no-repeat 1.1em 90%;
+    background-size: auto 0.5em;
+}
+tr.title td { vertical-align: middle; padding: 0px; margin-left: 5em;  width: 100%}
+div.menubar { vertical-align: bottom; padding: 0px; margin-right: 5em;
+              position: absolute; bottom: 0; right: 0;
+              font-size: 12pt;
+    }
+td.title h1 { color: #000; padding-left: 30px; margin:0; }
+td.title h2 { color: #444; padding-left: 30px;}
+td.title h2 { color: #888; padding-left: 30px;}
+td.divider { }
+td.underTitle { height: 70pt; }
+#ui-id-1 { color: white; }
+#ui-id-1:hover { background: #1092c7; }
+.tight { padding:0; border: 0; margin: 0; }
+.units { font-family: serif; font-size: 70%; font-style:italic; }
+@media (max-width:1024px) {
+   body { font-size: 70%; }
+   .bodybox { padding: 10px; margin:0;
+        width:auto; height:auto; }
+    div.navBadge {
+        position:fixed; z-index: 99; left:5px; bottom:5px
+    }
+    div.navBadge a img { width:60px; }
+}
+.ui-menu {
+        z-index: 9999;
+}
+li.ui-menu-item a span.ui-menu-icon { display: none; }
+
