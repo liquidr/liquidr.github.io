@@ -95,7 +95,7 @@ table.dialog { padding: 30px ;  background-color: #378de5; color: white;
               border-radius: 8px; padding: 25px; margin:30px; }
 table.main { border-spacing: 0; border:0; padding:0; margin: 0; width: 100%; }
 input.fullwidth { width:100%; }
-input { background: #2070d0; color:white; border-radius: 4px; }
+input { background: #2070d0; color:white; border-radius: 4px; border:0; padding:4px; margin:4px;}
 td.nav { position: relative; top: 30px; }
 td.timevalue { white-space: nowrap; }
 div.title { vertical-align: middle; padding: 5pt 1em; margin: 0; color:white;
