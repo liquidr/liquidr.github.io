@@ -20,6 +20,10 @@ div.subtitle { padding-left: 2em; font: italic normal 50% serif; }
         background-origin: padding-box;
     }
 }
+@keyframes reveal {
+    from: { opacity: 0; }
+    to: { opacity: 1; }
+}
 
 .dropdown {
     position: relative;
@@ -45,6 +49,8 @@ div.subtitle { padding-left: 2em; font: italic normal 50% serif; }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    animation: reveal;
+    animation-duration: 1s;
 }
 
 .dropdown-content a {
