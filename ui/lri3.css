@@ -35,7 +35,7 @@ div.subtitle { padding-left: 2em; font: italic normal 50% serif; }
     border-bottom: 4px solid #c8d73f;
 }
 .dropdown-content {
-    display: none;
+    display: block;
     position: absolute;
     top:calc(100% + 4px);
     right:0%;
@@ -45,12 +45,12 @@ div.subtitle { padding-left: 2em; font: italic normal 50% serif; }
     box-shadow: 3px 7px 22px 2px rgba(0,0,0,0.59);
     padding: 12px 16px;
     z-index: 9999;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
-    animation: reveal;
-    animation-duration: 1s;
+    opacity: 1;
 }
 
 .dropdown-content a {
