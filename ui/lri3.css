@@ -21,8 +21,8 @@ div.subtitle { padding-left: 2em; font: italic normal 50% serif; }
     }
 }
 @keyframes reveal {
-    from: { opacity: 0; }
-    to: { opacity: 1; }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 .dropdown {
