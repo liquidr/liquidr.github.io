@@ -29,14 +29,14 @@ div.subtitle { padding-left: 2em; font: italic normal 50% serif; }
     border-bottom: 4px solid transparent;
 }
 .dropdown::after { /* 25BE */
-    content: "\25BE";
-    font-size: 150%;
+    content: " \25BE";
 }
 .dropdown:hover {
     border-bottom: 4px solid #c8d73f;
 }
 .dropdown-content {
     display: block;
+    text-transform: none;
     visibility:hidden;
     z-index: -1;
     position: absolute;
