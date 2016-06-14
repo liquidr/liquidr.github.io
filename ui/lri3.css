@@ -126,13 +126,16 @@ table.login input[type="text"], input[type="password"] {
     border: none;
     outline: none;
     border-radius: 0;
-    border-bottom: 4px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 table.login input[type="text"]:hover, input[type="password"]:hover {
-    border-bottom: 4px solid #c8d73f;
+    border-bottom-color: #c8d73f;
 }
 table.login input[type="text"]:focus, input[type="password"]:focus {
-    border-bottom: 4px solid #60A0f0;
+    border-bottom-color: #60A0f0;
+}
+table.login .-webkit-autofill {
+    background: lightgray;
 }
 td.nav { position: relative; top: 30px; }
 td.timevalue { white-space: nowrap; }
