@@ -1,0 +1,43 @@
+
+<META HTTP-EQUIV='CACHE-CONTROL' CONTENT='NO-CACHE'>
+<html><head><title>Please Log In</title><link href='https://liquidr.github.io/ui/jquery-ui-1.10.3.css' rel='stylesheet' type='text/css'>
+<link href='https://liquidr.github.io/ui/jquery-ui-timepicker-addon.css' rel='stylesheet' type='text/css'>
+<link href='lri3.css' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oxygen:300' rel='stylesheet' type='text/css'>
+<script type=text/javascript src='https://liquidr.github.io/ui/jquery-1.9.1.min.js'></script>
+<script type=text/javascript src='https://liquidr.github.io/ui/jquery-ui.min-1.10.3.js'></script>
+<script type=text/javascript src='https://liquidr.github.io/ui/jquery-ui-timepicker-addon.js'></script>
+<script type=text/javascript src='https://liquidr.github.io/ui/jquery-ui-sliderAccess.js'></script>
+<style type="text/css">h1 { font-family: 'Oxygen', sans-serif; font-size: 200%; }
+h2 { font-family: 'Oxygen', sans-serif; font-size: 150%; }
+</style></head><body><div class="navBadge"><table width=100%>
+<tr>
+<td valign=bottom align=left width=50%>
+<td valign=bottom align=right width=50%><img  src="https://liquidr.github.io/ui/JavaPoweredVertical.png" border="0"></table></div><div id="title" class="title">Please Log In<div class="menubar"><div class="dropdown">Tools<div class="dropdown-content"><a href="zoo.html">Cluster Status</a>
+<br><a href="https://mds.liquidr.net/DataPortal2">Data Portal</a>
+<br><a href="index.html">List Wavegliders</a>
+<br><a href="dashboard.html">Software Dashboard</a>
+<br><a href="logout">Logout</a></div></div><div class="dropdown">Help<div class="dropdown-content"><a href="http://engwiki.sc5.liquidr.net/index.php/Main_Page">Engineering Wiki</a>
+<br><a href="http://engwiki.sc5.liquidr.net/index.php/Knowledge_Base">Knowledge Base</a>
+<br><a href="http://liquid-robotics.com">LRI Home</a>
+<br><a href="mailto:support@liquid-robotics.com">Contact Support</a></div></div></div></div></body><table class="main" height=100%>
+<tr>
+<td valign=top align=left class="underTitle">
+<tr>
+<td valign=top align=center width=100% height=100% class="body"><div class="bodybox"><table width=100% height=100%>
+<tr>
+<td valign=middle align=center><form method="post" enctype="multipart/form-data" action="/metadata/index.html"><table class="login">
+<tr>
+<td valign=top align=left>User ID:
+<td valign=top align=left><input type="text" name="Ecom_User_ID" autofocus>
+<tr>
+<td valign=top align=left>Password:
+<td valign=top align=left><input type="password" name="Ecom_User_Password">
+<tr>
+<td valign=top align=left>
+<td valign=top align=left><input type="submit" value="Login"></table></form>
+<tr>
+<td valign=top align=left colspan=3 class="footer"></table></div></table></html><script>$('.date').datetimepicker();
+window.onscroll = function () {
+document.getElementById("title").style.opacity = Math.max(0.5,1-document.body.scrollTop/300);
+};</script>
