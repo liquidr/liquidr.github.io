@@ -119,7 +119,7 @@ input[type="submit"][value="Login"] {
     text-transform: uppercase;
 }
 table.login input[type="text"], input[type="password"] {
-    background: lightgray;
+    background: lightgray !important;
     color: black;
     padding: 4px;
     margin: 0;
