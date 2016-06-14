@@ -135,7 +135,7 @@ table.login input[type="text"]:focus, input[type="password"]:focus {
     border-bottom-color: #60A0f0;
 }
 table.login .-webkit-autofill {
-    background: lightgray;
+    background: lightgray !important;
 }
 td.nav { position: relative; top: 30px; }
 td.timevalue { white-space: nowrap; }
