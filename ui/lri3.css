@@ -129,6 +129,7 @@ table.login input[type="text"], input[type="password"] {
     outline: none;
     border-radius: 0;
     border-bottom: 2px solid transparent;
+    font-size: 120%;
 }
 table.login input[type="text"]:hover, input[type="password"]:hover {
     border-bottom-color: #c8d73f;
