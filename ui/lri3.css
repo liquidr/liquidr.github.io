@@ -104,8 +104,11 @@ table.login {
     border: thin solid lightgray;
     color: black;
     box-shadow: 3px 7px 22px 2px rgba(0,0,0,0.2);
-    padding: 2em 2em 1em 2em;
+    padding: 0;
     margin: 30px;
+}
+table.login tr:last-child td:first-child {
+    padding: 1em 3em;
 }
 table.dialog { padding: 30px ;  background-color: #378de5; color: white;
               border-radius: 8px; padding: 25px; margin:30px; }
@@ -130,6 +133,9 @@ table.login input[type="text"], input[type="password"] {
     border-radius: 0;
     border-bottom: 2px solid transparent;
 }
+table.login tr { border: none; margin:0; padding:0; }
+table.login td { border: none; margin:0; padding:0; }
+.loginTitle { font-size: 110%; }
 table.login input[type="text"]:hover, input[type="password"]:hover {
     border-bottom-color: #c8d73f;
 }
