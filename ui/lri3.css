@@ -117,6 +117,7 @@ input[type="submit"][value="Login"] {
     padding-right: 25;
     color:black;
     text-transform: uppercase;
+    float: right;
 }
 table.login input[type="text"], input[type="password"] {
     box-shadow: 0 0 0 50px #EEE inset;  /* Gross hack to get around browser autofill coloring */
