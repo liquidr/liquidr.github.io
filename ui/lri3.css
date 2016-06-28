@@ -117,16 +117,18 @@ input[type=text]{
     color: black;
     border-radius: 0;
     border: 0;
-    border-bottom: thin solid lightgray;
+    border-bottom: 2pt solid lightgray;
     padding: 4px;
     margin: 4px;
+    outline: none;
 }
-input[type=text]:focused {
-    border-bottom: thin solid black;
+input[type=text]:focus, input[type=text]:hover {
+    box-shadow: 0 0 0 50px #FFF inset;
+    border-bottom-color: #60A0f0;
 }
 input[type="submit"][value="Login"] {
     background: url("../images/signIn.png") no-repeat right center;
-    padding-right: 25;
+    padding-right: 25pt;
     color:black;
     text-transform: uppercase;
     float: right;
