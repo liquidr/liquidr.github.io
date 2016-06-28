@@ -111,7 +111,19 @@ table.dialog { padding: 30px ;  background-color: #378de5; color: white;
               border-radius: 8px; padding: 25px; margin:30px; }
 table.main { border-spacing: 0; border:0; padding:0; margin: 0; width: 100%; }
 input.fullwidth { width:100%; }
-input { background: #2070d0; color:white; border-radius: 4px; border:0; padding:4px; margin:4px;}
+/*input { background: #2070d0; color:white; border-radius: 4px; border:0; padding:4px; margin:4px;}*/
+input[type=text]{
+    background: transparent;
+    color: black;
+    border-radius: 0;
+    border: 0;
+    border-bottom: thin solid lightgray;
+    padding: 4px;
+    margin: 4px;
+}
+input[type=text]:focused {
+    border-bottom: thin solid black;
+}
 input[type="submit"][value="Login"] {
     background: url("../images/signIn.png") no-repeat right center;
     padding-right: 25;
