@@ -1,8 +1,9 @@
-"9Help/0Readme": README.mkd
-"Help/1Contact": contact.mkd
-"Help/About SV3 Wavegliders": "http://liquidr.com/technology/sv3.html"
-"Help/Liquid Robotics": "http://liquidr.com"
-"Help/9Finding Regulus": Regulus.mkd
-"Status/Network": "!netstat -a"
-"Help/9Swag": "http://www.redbubble.com/people/haemishbew/works/10164978-liquid-rowbotics"
-
+{
+    "9Help/0Readme": "README.mkd",
+    "Help/1Contact": "contact.mkd",
+    "Help/About SV3 Wavegliders": "http://liquidr.com/technology/sv3.html",
+    "Help/Liquid Robotics": "http://liquidr.com",
+    "Help/9Finding Regulus": "Regulus.mkd",
+    "Status/Network": "!netstat -a",
+    "Help/9Swag": "http://www.redbubble.com/people/haemishbew/works/10164978-liquid-rowbotics"
+}
