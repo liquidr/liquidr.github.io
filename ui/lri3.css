@@ -155,8 +155,8 @@ td.nav { position: relative; top: 30px; }
 td.timevalue { white-space: nowrap; }
 div.title { vertical-align: middle; padding: 5pt 1em; margin: 0; color:white;
     width: 100%; height: 80pt; font-size: 30pt; position:fixed; z-index: 999;
-    background: black url("../images/LiquidRowboticsBoeingBanner.png") no-repeat 1.1em 40pt;
-    background-size: auto 1.5em;
+    background: black url(../images/LRI-ABC-white.png) no-repeat calc(100% - 120px) 25px;
+    background-size: auto 0.8em;
 }
 tr.title td { vertical-align: middle; padding: 0px; margin-left: 5em;  width: 100%}
 div.menubar { vertical-align: bottom; padding: 0px; margin-right: 5em;
