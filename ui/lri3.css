@@ -93,7 +93,7 @@ body { font-family: sans-serif; }
 div.bigChart { width: 6in; display: block; height: 4in; background: white;
                border-radius: 17px; margin-top: 20px; padding: 5px; }
 a.button { display: inline-block; text-decoration: none;
-           padding: 0px 4px; background: #2070d0; color:white; margin: 0px 5px;
+           padding: 0px 4px; background: linear-gradient(to bottom, #1e5799 0%,#7db9e8 100%); color:white; margin: 0px 5px;
            border: thin solid transparent; border-radius: 5px; }
 a.button:hover { border: thin solid black; color: black; }
 a.nav { display: block; width: 200px; text-decoration: none; font-family: sans-serif;
